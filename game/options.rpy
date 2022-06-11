@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Kristik Saga 3")
+define config.name = _("Kristik Saga 3 Limited Access BETA")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,14 +23,14 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "2.0.0.0"
+define config.version = "0.2.2.0b"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
-Developed by:  Kristik Lal and Aaron Kim (KrisCorp LLC)\n\nSupporting developers:  Kyle Nguyen,  Kevin Nguyen,  Jason Nguyen,  Hung Phan  (ByungShin Co. LTD.)\n\nAsset sprites: Innocent Grey,  Arc System Works, Alchemist\n\nMenu music:  YUZUSOFT\n\nVoice Acting: Aaron Kim\n\nScript writing:  KrisCorp LLC\n\nInstaller: Aaron Kim, InstallShield 2021 R1\n\nThis program and it's assets belong to the rightful owners. Installation and subsequent running of this program is prohibited unless the installer or the installer's contents were downloaded from kristiklal.com or were given by the original author. If you have downloaded this program from an unknown source, please discard it immediately.
+Developed by:  Kristik Lal and Aaron Kim (KrisCorp LLC)\n\nSupporting developers:  Kyle Nguyen,  Kevin Nguyen,  Jason Nguyen,  Hung Phan  (ByungShin Co. LTD.)\n\nAsset sprites: Innocent Grey,  Arc System Works, Alchemist\n\nMusic:  YUZUSOFT\n\nVoice Acting: Aaron Kim\n\nScript writing:  KrisCorp LLC\n\nInstaller: Aaron Kim, InstallShield 2021 R1\n\nThis program and it's assets belong to the rightful owners. Installation and subsequent running of this program is prohibited unless the installer or the installer's contents were downloaded from kristiklal.com or were given by the original author. If you have downloaded this program from an unknown source, please discard it immediately.
 
 """)
 

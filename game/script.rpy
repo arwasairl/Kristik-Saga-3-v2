@@ -12,50 +12,50 @@
 ####################################################################################################################################################
 
 default show_quick_menu = False
-define voicevoid = Character("Voice", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vvoice")
-define kristik = Character("Kristik", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkristik")
-define kristikmind = Character("Kristik's Mind", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#ff0000") ], voice_tag="Vkristik")
-define bill = Character("Bill", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vbill")
-define kyle = Character("Kyle", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkyle")
-define kevin = Character("Kevin", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkevin")
-define jason = Character("Jason", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vjason")
-define aaron = Character("Aaron", color="#ffffff", who_outlines=[ (3, "#910000") ], what_outlines=[ (2, "#910000") ], voice_tag="Vaaron")
-define wesley = Character("Wesley", color="#ffffff", who_outlines=[ (3, "#913800") ], what_outlines=[ (2, "#913800") ], voice_tag="Vwesley")
-define suou = Character("Suou", color="#ffffff", who_outlines=[ (3, "#6f3680") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#6f3680", voice_tag="Vsuou")
-define mayuri = Character("Mayuri", color="#ffffff", who_outlines=[ (3, "#0076a8") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#0076a8", voice_tag="Vmayuri")
-define yuzuriha = Character("Yuzuriha", color="#ffffff", who_outlines=[ (3, "#8a8a8a") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#8a8a8a", voice_tag="Vyuzuriha")
-define rikka = Character("Rikka", color="#ffffff", who_outlines=[ (3, "#434391") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#434391", voice_tag="Vrikka")
-define nerine = Character("Nerine", color="#ffffff", who_outlines=[ (3, "#c4b482") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c4b482", voice_tag="Vichigo")
-define ichigo = Character("Ichigo", color="#ffffff", who_outlines=[ (3, "#c783c9") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c783c9", voice_tag="Vringo")
-define ringo = Character("Ringo", color="#ffffff", who_outlines=[ (3, "#c783c9") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c783c9", voice_tag="Vringo")
-define chidori = Character("Chidori", color="#ffffff", who_outlines=[ (3, "#215722") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#215722", voice_tag="Vchidori")
-define erika = Character("Erika", color="#ffffff", who_outlines=[ (3, "#02ab97") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#02ab97", voice_tag="Verika")
-define nurse = Character("Nurse", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vnurse")
-define daboys = Character("The Boys", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vtheboys")
-define intercom = Character("Intercom", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vintercom")
-define unknown = Character("???", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vunknown")
-define narrator = Character("", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vunknown")
-define mom = Character("Mom", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vmom")
-define xijingping = Character("Xi Jingping Bot 9000", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vxijing")
-define natsuhi = Character("Natsuhi", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vnatsuhi")
-define ange = Character("Ange", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vange")
-define rudolf = Character("Rudolf", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vrudolf")
-define toshiro = Character("Toshiro", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vtoshiro")
-define c00 = Character("Chiester 00", color="#ffffff", who_outlines=[ (3, "#a18903") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#a18903", voice_tag="V00")
-define c410 = Character("Chiester 410", color="#ffffff", who_outlines=[ (3, "#2105a1") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#2105a1", voice_tag="V410")
-define c45 = Character("Chiester 45", color="#ffffff", who_outlines=[ (3, "#ec03fc") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#ec03fc", voice_tag="V45")
-define c556 = Character("Chiester 556", color="#ffffff", who_outlines=[ (3, "#40ad8b") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#40ad8b", voice_tag="V556")
-define everyone = Character("Everyone", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Veveryone")
-define kaori = Character("Kaori", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkaori")
-define beatrice = Character("Beatrice", color="#ffffff", who_outlines=[ (3, "#a34d02") ], what_outlines=[ (2, "#a34d02") ], voice_tag="Vbeatrice")
-define haruhi = Character("Haruhi", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vharuhi")
-define judge = Character("Judge", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vjudge")
-define assistant = Character("D.A. Assistant", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vassistant")
-define mikuru = Character("Mikuru", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vmikuru")
-define citizen = Character("Random Ass Citizen", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vcitizen")
-define simyo = Character("Shim Young", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vsimyo")
-define doctor = Character("Doctor", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vdoctor")
-define scav = Character("Scav", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vscav")
+define voicevoid = Character("Voice", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vvoice",ctc="ctc_anchored",ctc_position="fixed")
+define kristik = Character("Kristik", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkristik",ctc="ctc_anchored",ctc_position="fixed")
+define kristikmind = Character("Kristik's Mind", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#ff0000") ], voice_tag="Vkristik",ctc="ctc_anchored",ctc_position="fixed")
+define bill = Character("Bill", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vbill",ctc="ctc_anchored",ctc_position="fixed")
+define kyle = Character("Kyle", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkyle",ctc="ctc_anchored",ctc_position="fixed")
+define kevin = Character("Kevin", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkevin",ctc="ctc_anchored",ctc_position="fixed")
+define jason = Character("Jason", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vjason",ctc="ctc_anchored",ctc_position="fixed")
+define aaron = Character("Aaron", color="#ffffff", who_outlines=[ (3, "#910000") ], what_outlines=[ (2, "#910000") ], voice_tag="Vaaron",ctc="ctc_anchored",ctc_position="fixed")
+define wesley = Character("Wesley", color="#ffffff", who_outlines=[ (3, "#913800") ], what_outlines=[ (2, "#913800") ], voice_tag="Vwesley",ctc="ctc_anchored",ctc_position="fixed")
+define suou = Character("Suou", color="#ffffff", who_outlines=[ (3, "#6f3680") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#6f3680", voice_tag="Vsuou",ctc="ctc_anchored",ctc_position="fixed")
+define mayuri = Character("Mayuri", color="#ffffff", who_outlines=[ (3, "#0076a8") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#0076a8", voice_tag="Vmayuri",ctc="ctc_anchored",ctc_position="fixed")
+define yuzuriha = Character("Yuzuriha", color="#ffffff", who_outlines=[ (3, "#8a8a8a") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#8a8a8a", voice_tag="Vyuzuriha",ctc="ctc_anchored",ctc_position="fixed")
+define rikka = Character("Rikka", color="#ffffff", who_outlines=[ (3, "#434391") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#434391", voice_tag="Vrikka",ctc="ctc_anchored",ctc_position="fixed")
+define nerine = Character("Nerine", color="#ffffff", who_outlines=[ (3, "#c4b482") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c4b482", voice_tag="Vichigo",ctc="ctc_anchored",ctc_position="fixed")
+define ichigo = Character("Ichigo", color="#ffffff", who_outlines=[ (3, "#c783c9") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c783c9", voice_tag="Vringo",ctc="ctc_anchored",ctc_position="fixed")
+define ringo = Character("Ringo", color="#ffffff", who_outlines=[ (3, "#c783c9") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#c783c9", voice_tag="Vringo",ctc="ctc_anchored",ctc_position="fixed")
+define chidori = Character("Chidori", color="#ffffff", who_outlines=[ (3, "#215722") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#215722", voice_tag="Vchidori",ctc="ctc_anchored",ctc_position="fixed")
+define erika = Character("Erika", color="#ffffff", who_outlines=[ (3, "#02ab97") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#02ab97", voice_tag="Verika",ctc="ctc_anchored",ctc_position="fixed")
+define nurse = Character("Nurse", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vnurse",ctc="ctc_anchored",ctc_position="fixed")
+define daboys = Character("The Boys", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vtheboys",ctc="ctc_anchored",ctc_position="fixed")
+define intercom = Character("Intercom", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vintercom",ctc="ctc_anchored",ctc_position="fixed")
+define unknown = Character("???", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vunknown",ctc="ctc_anchored",ctc_position="fixed")
+define narrator = Character("", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vunknown",ctc="ctc_anchored",ctc_position="fixed")
+define mom = Character("Mom", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vmom",ctc="ctc_anchored",ctc_position="fixed")
+define xijingping = Character("Xi Jingping Bot 9000", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vxijing",ctc="ctc_anchored",ctc_position="fixed")
+define natsuhi = Character("Natsuhi", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vnatsuhi",ctc="ctc_anchored",ctc_position="fixed")
+define ange = Character("Ange", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vange",ctc="ctc_anchored",ctc_position="fixed")
+define rudolf = Character("Rudolf", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vrudolf",ctc="ctc_anchored",ctc_position="fixed")
+define toshiro = Character("Toshiro", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vtoshiro",ctc="ctc_anchored",ctc_position="fixed")
+define c00 = Character("Chiester 00", color="#ffffff", who_outlines=[ (3, "#a18903") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#a18903", voice_tag="V00",ctc="ctc_anchored",ctc_position="fixed")
+define c410 = Character("Chiester 410", color="#ffffff", who_outlines=[ (3, "#2105a1") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#2105a1", voice_tag="V410",ctc="ctc_anchored",ctc_position="fixed")
+define c45 = Character("Chiester 45", color="#ffffff", who_outlines=[ (3, "#ec03fc") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#ec03fc", voice_tag="V45",ctc="ctc_anchored",ctc_position="fixed")
+define c556 = Character("Chiester 556", color="#ffffff", who_outlines=[ (3, "#40ad8b") ], what_outlines=[ (2, "#FFFFFF") ], what_color="#40ad8b", voice_tag="V556",ctc="ctc_anchored",ctc_position="fixed")
+define everyone = Character("Everyone", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Veveryone",ctc="ctc_anchored",ctc_position="fixed")
+define kaori = Character("Kaori", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vkaori",ctc="ctc_anchored",ctc_position="fixed")
+define beatrice = Character("Beatrice", color="#ffffff", who_outlines=[ (3, "#a34d02") ], what_outlines=[ (2, "#a34d02") ], voice_tag="Vbeatrice",ctc="ctc_anchored",ctc_position="fixed")
+define haruhi = Character("Haruhi", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vharuhi",ctc="ctc_anchored",ctc_position="fixed")
+define judge = Character("Judge", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vjudge",ctc="ctc_anchored",ctc_position="fixed")
+define assistant = Character("D.A. Assistant", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vassistant",ctc="ctc_anchored",ctc_position="fixed")
+define mikuru = Character("Mikuru", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vmikuru",ctc="ctc_anchored",ctc_position="fixed")
+define citizen = Character("Random Ass Citizen", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vcitizen",ctc="ctc_anchored",ctc_position="fixed")
+define simyo = Character("Shim Young", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vsimyo",ctc="ctc_anchored",ctc_position="fixed")
+define doctor = Character("Doctor", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vdoctor",ctc="ctc_anchored",ctc_position="fixed")
+define scav = Character("Scav", color="#ffffff", who_outlines=[ (3, "#000000") ], what_outlines=[ (2, "#000000") ], voice_tag="Vscav",ctc="ctc_anchored",ctc_position="fixed")
 
 style text_timer_ok:
     xpos 550
@@ -156,6 +156,9 @@ image white_base:
     "transitions/white_base.png"
     zoom 0.67
 
+image objection:
+    "matta.png"
+
 image next_base:
     "transitions/next_base.png"
     zoom 0.67
@@ -163,6 +166,35 @@ image next_base:
 image transition1:
     "transitions/transition1.png"
     zoom 0.67
+
+image transition2:
+    "transitions/transition2.png"
+    zoom 0.67
+
+image transition3:
+    "transitions/transition3.png"
+    zoom 0.67
+
+image transition4:
+    "transitions/transition4.png"
+    zoom 0.67
+
+image transition5:
+    "transitions/transition5.png"
+    zoom 0.67
+
+image transition6:
+    "transitions/transition6.png"
+    zoom 0.67
+
+image transition7:
+    "transitions/transition7.png"
+    zoom 0.67
+
+image transition8:
+    "transitions/transition8.png"
+    zoom 0.67
+
 
 image hospital_bed:
     "backgrounds/hosp_room2.jpg"
@@ -212,6 +244,15 @@ image BG018Y:
 
 image BG033y:
     "backgrounds/BG033y.png"
+
+image ctc_anchored:
+    zoom 0.07
+    "GUI/arrow.png"
+    yalign 0.96
+    xpos 950
+    linear 1.00 alpha 1.0
+    linear 1.00 alpha 0.0
+    repeat 
 
 image BG080:
     "backgrounds/BG080.png"
@@ -709,7 +750,9 @@ init python:
 
             return Text( text_format.format(**parts_dict), 
                         style = ok_style if remaining > style_swap else near_style), .1                        
-    config.developer = True
+    
+    
+    config.developer = False
     config.auto_voice = "voice/{id}.wav"
 
     warDeathEnding = 0
@@ -756,7 +799,7 @@ init python:
     # TODO: REMOVE COMMENT BELOW FOR REGULAR RELEASE
     #======================================================================================================
 
-    #config.rollback_enabled = False
+    config.rollback_enabled = False
 
 
     #=================================================================================================================================
@@ -792,8 +835,8 @@ init python:
 ###################################################################################################################################################
 
 
-# screen Beta:
-#     text "persistent: [persistent.endingFinished1]" xpos -1 ypos 0.00 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
+screen Beta:
+    text "BETA v0.2.2.0b! DO NOT REDISTRIBUTE!" xpos -1 ypos 0.00 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
 
 
 # screen Stats:
@@ -859,6 +902,12 @@ label main_menu:
     hide warning
     $ renpy.transition(dissolve)
     $ renpy.pause(2, hard=True)
+    show beta
+    $ renpy.transition(dissolve)
+    $ renpy.pause(4, hard=True)
+    hide beta
+    $ renpy.transition(dissolve)
+    $ renpy.pause(2, hard=True)
     play music "audio/main-menu-theme.ogg"
     show intro
     $ renpy.pause(1.45, hard=True)
@@ -879,7 +928,7 @@ label start:
     #======================================================================================================
     ## TODO: REMOVE BELOW FOR RELEASE VERSION
     #======================================================================================================
-    #show screen Beta
+    show screen Beta
 
 
     $ renpy.transition(dissolve)
@@ -2020,14 +2069,8 @@ label storypartone:
         zoom 0.6   
     bill "I was so close...."
     hide bill (119)
-    show bill (118):
-        xpos 100
-        zoom 0.6  
-    bill "WAAAHH!HH!!!!!!!! I CANT NEVER GET NO BITCHES!!!!!"    
-    kristikmind "{i}bruh... this mf be so down bad..."
-    hide bill (118)
     with dissolve
-    $ renpy.pause(2.0, hard=True)
+    kristikmind "{i}bruh... this mf be so down bad..."
     show schi0105:
         xpos 300
         zoom 1.2
@@ -2428,6 +2471,19 @@ label storypartone:
         $ show_quick_menu = False
         with Dissolve(1)
         stop music fadeout 2.0
+        $ renpy.pause(2.0, hard=True)
+
+        show white_base
+        with dissolve
+        show next_base
+        show transition3
+        with blinds
+        $ renpy.pause(5, hard=True)  
+        hide white_base
+        hide next_base
+        hide transition3
+        with blinds
+        $ renpy.pause(1, hard=True) 
         jump parttwo        
 
 
@@ -3159,6 +3215,19 @@ label parttwo:
                 hide city_station
                 with dissolve
                 $ renpy.pause(2,hard=True)
+
+                show white_base
+                with dissolve
+                show next_base
+                show transition4
+                with blinds
+                $ renpy.pause(5, hard=True)  
+                hide white_base
+                hide next_base
+                hide transition4
+                with blinds
+                $ renpy.pause(1, hard=True) 
+
                 jump chapterthree                
             label noJack:
                 kristik "HELL NO BRO!!! PLZ NO!!!"
@@ -3244,6 +3313,20 @@ label parttwo:
                 hide city_station
                 with dissolve
                 $ renpy.pause(2,hard=True)
+
+                show white_base
+                with dissolve
+                show next_base
+                show transition5
+                with blinds
+                $ renpy.pause(5, hard=True)  
+                hide white_base
+                hide next_base
+                hide transition5
+                with blinds
+                $ renpy.pause(1, hard=True) 
+
+
                 jump chapterthree  
 
         label goback:
@@ -3298,6 +3381,7 @@ label parttwo:
             kyle "Really?"
             kristik "Yeah..."
     elif EXPchidori < 1:
+        play sound "audio/train.ogg"
         #################################################################
         #PLAY TRAIN SOUND
         #################################################################
@@ -3788,6 +3872,20 @@ label chapterthree:
                 hide suburb_konbiniext
                 with dissolve
                 $ renpy.pause(2, hard=True)
+
+                show white_base
+                with dissolve
+                show next_base
+                show transition6
+                with blinds
+                $ renpy.pause(5, hard=True)  
+                hide white_base
+                hide next_base
+                hide transition6
+                with blinds
+                $ renpy.pause(1, hard=True) 
+
+
                 jump chapterfour                        
             "Leave the area and go to the hotel":
                 $ show_quick_menu = True
@@ -3811,6 +3909,19 @@ label chapterthree:
                 hide suburb_konbiniext
                 with dissolve
                 $ renpy.pause(2, hard=True)
+
+                show white_base
+                with dissolve
+                show next_base
+                show transition7
+                with blinds
+                $ renpy.pause(5, hard=True)  
+                hide white_base
+                hide next_base
+                hide transition7
+                with blinds
+                $ renpy.pause(1, hard=True) 
+
                 jump chapterfour     
 
     elif EXPsuou >= 5:
@@ -4281,6 +4392,19 @@ label chapterthree:
             $ show_quick_menu = False
             with dissolve
             $ renpy.pause(4,hard=True)
+
+            show white_base
+            with dissolve
+            show next_base
+            show transition8
+            with blinds
+            $ renpy.pause(5, hard=True)  
+            hide white_base
+            hide next_base
+            hide transition8
+            with blinds
+            $ renpy.pause(1, hard=True) 
+
             jump chapterfour
 
     else:
@@ -5002,6 +5126,7 @@ label chapterthree:
 
 label chapterfour:
     if EXPerika >= 3:
+        play music "audio/Sanoba Witch OST - School Dayz-(128kbps).ogg"
         $show_quick_menu = True
         window show
         with dissolve 
@@ -5046,6 +5171,7 @@ label chapterfour:
         #################################################################
         #PLAY PHONE RING SOUND
         #################################################################
+        play sound "audio/notification.mp3"
         $ renpy.pause(2,hard=True)
         chidori "{i}Hey Kristik."
         chidori "{i}Erika should be with you right now."
@@ -5101,6 +5227,7 @@ label chapterfour:
             ypos -60
             zoom 1.1
         kristik "OKOKOOK whatever we just need to go!"
+        stop music fadeout 2.0
         hide seri0111
         hide lilly_hilltop
         with dissolve
@@ -5113,6 +5240,8 @@ label chapterfour:
         with dissolve 
         show shizu_fishing
         with dissolve
+        play music "audio/Sanoba Witch OST - Kino-au Nakama-tachi-128k intro.ogg"
+        queue music "audio/Sanoba Witch OST - Kino-au Nakama-tachi-128k.ogg"
         kristik "..."
         show schi0102:
             xpos -20
@@ -5254,6 +5383,7 @@ label chapterfour:
         hide smay0102
         hide schi0101
         with dissolve    
+        stop music fadeout 2.0
         hide shizu_fishing
         with dissolve
         $ show_quick_menu = False
@@ -5268,6 +5398,7 @@ label chapterfour:
         $ renpy.pause(2,hard=True)
         show office
         with dissolve        
+        play music "audio/jazznoir.ogg"
         $ renpy.pause(2,hard=True)        
         aaron "Wesley."
         aaron "We're nearly there."
@@ -5296,7 +5427,7 @@ label chapterfour:
             ypos 175
             zoom 0.65
         with dissolve   
-
+        play sound "audio/lightingciggie.ogg"
         ####################################################################################################################################################################################
         ## PLAY CIGARETTE LIGHTER SOUNDS
         ####################################################################################################################################################################################
@@ -5328,6 +5459,7 @@ label chapterfour:
         hide aaron_10s
         hide wesley_1s
         hide office
+        stop music fadeout 2.0
         with dissolve
         window hide
         $ show_quick_menu = False
@@ -5436,86 +5568,6 @@ label chapterfour:
         window hide
         with dissolve
         $ renpy.pause(1,hard=True)
-        window show
-        $ show_quick_menu = True
-        with dissolve
-        narrator "..."
-        narrator "......."
-        $ renpy.pause(2,hard=True)
-        play music "audio/jazznoir.ogg"
-        show office
-        with dissolve        
-        $ renpy.pause(2,hard=True)        
-        aaron "Wesley."
-        aaron "We're getting close."
-        show wesley_1s:
-            xpos 850
-            ypos 80
-            zoom 0.7
-        show aaron_3s:
-            xpos -90
-            ypos 175
-            zoom 0.65
-        with dissolve
-        play sound "audio/lightingciggie.ogg"
-        wesley "What are we going to do with Kristik?"
-        hide aaron_3s
-        show aaron_8s:
-            ypos 175
-            zoom 0.6
-        aaron "Nothing. He's not much of a threat, despite everyone thinking that he is."
-        aaron "He and his friends will be easy targets."
-        wesley "Aren't most of them demons?"
-        aaron "They are. But they're all relatively easy to kill."
-        aaron "Since we stole all those bombs, we should be able to kill them with only one of them, maybe two at most."
-        wesley "When are we going to attack?"
-        hide aaron_8s
-        show aaron_3s2:
-            xpos -90
-            ypos 175
-            zoom 0.65
-        with dissolve   
-
-        ####################################################################################################################################################################################
-        ## PLAY CIGARETTE LIGHTER SOUNDS
-        ####################################################################################################################################################################################
-        play sound "audio/lightingfail.ogg"        
-        $ renpy.pause (3,hard=True)
-        hide aaron_3s2
-        show aaron_2s:
-            ypos 175
-            zoom 0.57
-        with dissolve
-        aaron "This damn lighter is out of fuel..."       
-        aaron "I'll let you know of a date." 
-        hide aaron_2s
-        show aaron_9s:
-            ypos 175
-            zoom 0.57
-        with dissolve
-        aaron "I don't want to rush this. We only have one chance."         
-        wesley "Understood."
-        hide aaron_9s
-        show aaron_10s:
-            ypos 180
-            zoom 0.57 
-        with dissolve                     
-        aaron "Don't worry. When the time comes, they'll all be dead."       
-        hide aaron_10s
-        show aaron_5s:
-            ypos 175
-            zoom 0.57
-        aaron "He and his ''bitches'' stand no chance against us."   
-        wesley "..."         
-        hide aaron_5s
-        hide wesley_1s
-        hide office
-        stop music fadeout 2.0
-        with dissolve
-        window hide
-        $ show_quick_menu = False
-        with dissolve
-        $ renpy.pause(2,hard=True)
         $ EXPaaronwesley += 1
         jump chapterfive
 
@@ -6745,11 +6797,11 @@ label chapterfour:
             zoom 0.6
         kevin "Awww cmon you're being a pussy now?"
         kristik "Fine!"
-
+        play sounmd "audio/ROBLOX _Bloxy Cola Drink_ Sound Effect-(128kbps).ogg"
         ############################################################################################################################################
         # INSERT ROBLOX BLOXY COLA DRINKING SOUND
         ############################################################################################################################################
-        $ renpy.pause(2,hard=True)
+        $ renpy.pause(4,hard=True)
         hide kevin (16)
         show kevin (18):
             xpos 0
@@ -9333,7 +9385,8 @@ label chapterfive:
                         show girl4 (1):
                             xpos 700
                             ypos 100
-                            zoom 0.6                                                            
+                            zoom 0.6        
+                        stop music fadeout 2.0                                                    
                         c45 "An enemy is infiltrating our base!"
                         toshiro "Who??"
                         hide girl4 (1)
@@ -9347,6 +9400,8 @@ label chapterfive:
                             xpos 100
                             ypos 40
                             zoom 0.6   
+                        play music "audio/Riddle Joker OST _ Invisibly Faster-(128kbps) intro.ogg"
+                        queue music "audio/Riddle Joker OST _ Invisibly Faster-(128kbps).ogg"
                         toshiro "WHAT?!?!!! GET THE OTHERS AND BARRICADE THE FRONT!!!"
                         kristik "What the fuck is going on...?"
                         c45 "YESSIR!!!"
@@ -9467,6 +9522,7 @@ label chapterfive:
                             xpos 600
                             zoom 0.6 
                         with dissolve
+                        stop music fadeout 2.0
                         natsuhi "What the hell is he going to do next...?"
                         hide girl1 (96)
                         hide guy1 (72)
@@ -9481,7 +9537,7 @@ label chapterfive:
                             xpos 400
                             ypos 120
                             zoom 0.7 
-                        with dissolve 
+                        play music "audio/maozedongdrip.ogg"
                         xijingping "YOU THERE!"
                         hide xi
                         show girl1 (93):
@@ -9563,9 +9619,11 @@ label chapterfive:
                             zoom 0.4                        
                         aaron "They couldn't handle any of this even if it came from their own mother..."  
                         aaron "Time to infiltrate the building."
+                        stop music fadeout 2.0
                         hide aaron_11
                         hide BG011
                         with dissolve
+                        play music "audio/Sanoba Witch OST - Fushigi-na Chikara-(128kbps).ogg"
                         show BG021
                         with dissolve
                         show aaron_11_1:
@@ -9659,6 +9717,7 @@ label chapterfive:
                         hide girl6 (9) onlayer master3
                         hide girl4 (14) onlayer master4  
                         with dissolve
+                        stop music fadeout 1.0
                         narrator "..."
                         show girl7 (11) onlayer master1:
                             xpos -50
@@ -9673,15 +9732,18 @@ label chapterfive:
                             xpos 900
                             zoom 0.6
                         with dissolve   
+                        play music "audio/Sanoba Witch OST - What-(128kbps).ogg"
                         everyone "Fuck! He got away!"    
                         hide girl7 (11) onlayer master1
                         hide girl5 (16) onlayer master2
                         hide girl6 (5) onlayer master3
                         hide girl4 (12) onlayer master4  
                         with dissolve 
+                        stop music fadeout 1.0
                         hide BG021
                         show BG004Y
                         with dissolve
+                        play music "audio/Sanoba Witch OST - Fushigi-na Chikara-(128kbps).ogg"
                         show guy2 (33):
                             xpos 350
                             zoom 0.6
@@ -9699,12 +9761,14 @@ label chapterfive:
                         show guy2 (33):
                             xpos 350
                             zoom 0.6
+                        stop music fadeout 2.0
                         toshiro "He was... your friend..?"
                         kristik "Oh shit..."                        
                         hide guy2 (33)
                         show guy2 (32):
                             xpos 350
                             zoom 0.6
+                        play music "audio/Sanoba Witch OST - What-(128kbps).ogg"
                         toshiro "HOW WOULD I KNOW IF YOU'RE A SPY FOR HIM THEN?!?!?!"
                         toshiro "THIS WAS ALL A PART OF YOUR PLAN HUH?!??! TO INFILTRATE THE OFFICE AND STEAL OUR OIL AGAIN!"
                         hide guy2 (32)
@@ -9928,12 +9992,15 @@ label chapterfive:
                         aaron "Kristik."
                         aaron "Why don't we have a bit of a chat?"
                         kristik "y-y-y-y-y-yesh!!!"
+                        stop music fadeout 2.0
                         hide aaron_11_1
                         hide BG004Y
                         with dissolve
                         $ renpy.pause(1,hard=True)
                         show BG022N1
+                        play music "audio/Sanoba Witch OST - Midday Star(InstVer.)-(128kbps).ogg"
                         with dissolve
+                        play sound "audio/lightingciggie.ogg"
                         show aaron_3:
                             xpos -90
                             ypos 175
@@ -10036,45 +10103,15 @@ label chapterfive:
                             zoom 0.4
                         kristik "I suppose we can talk another time."
                         aaron "Yes. I will see you later. Let's go Kaori."
+                        stop music fadeout 2.0
                         hide aaron_11_n
                         hide d6_n
                         with dissolve
                         kristik "..."         
                         hide BG011N
-                        show BG022N1
-                        with dissolve
-                        show girl3 (29):
-                            xpos 350
-                            zoom 0.6
-                        with dissolve
-                        ange "How's it been?"
-                        kristik "Hm..? Oh... yeah. I'm just kinda processing what's been going on..."   
-                        hide girl3 (29)
-                        show girl3 (22):
-                            xpos 350
-                            zoom 0.6
-                        ange "Weird right?"
-                        hide girl3 (22)
-                        show girl3 (21):
-                            xpos 350
-                            zoom 0.6
-                        ange "You weren't conscious, and now it seems like everyone's got a head start."
-                        kristik "hmm.. yeah."
-                        kristik "It does feel kinda shitty."
-                        hide girl3 (21)
-                        show girl3 (19):
-                            xpos 350
-                            zoom 0.6
-                        ange "Well. It's just how the cookie crumbles."
-                        hide girl3 (19)
-                        show girl3 (21):
-                            xpos 350
-                            zoom 0.6  
-                        ange "I'm going to close the office. You should go home now."
-                        kristik "Ok..."
-                        hide girl3 (21)
                         hide BG022N1
-                        with dissolve   
+                        stop music fadeout 2.0
+                        with dissolve  
                         window hide
                         $ show_quick_menu = False
                         with dissolve
@@ -11574,6 +11611,7 @@ label chapterfive:
             unknown "{i}Cell manager 2A, open cell 212B please."
             unknown "{i}Opening cell 212B."
             kristik "Cell 212B..? Am I that cell?"
+            play sound "audio/jailopen.ogg"
             #====================================================================================================================================================================================
             ###PLAY CELL HONK AND DOOR OPENING SOUND
             #====================================================================================================================================================================================
@@ -11713,6 +11751,7 @@ label chapterfive:
                 xpos 200
                 zoom 0.8
             haruhi "If you say so."
+            stop music fadeout 2.0
             hide haruhi12
             hide BG025
             with dissolve
@@ -11726,11 +11765,12 @@ label chapterfive:
                 ypos -40
                 zoom 0.8               
             with dissolve
+            play music "audio/Phoenix Wright Ace Attorney OST - Trial-(128kbps).ogg"
             window show
             $ show_quick_menu = True
             $ renpy.pause(1,hard=True)
             with dissolve         
-            judge "This court is now in seession."  
+            judge "This court is now in session."  
             kristik "why tf is the judge a maid?"
             show haruhi09 onlayer mcsprite:
                 xpos -200
@@ -11773,7 +11813,16 @@ label chapterfive:
                 zoom 0.73
             assistant "Fat indian man... much like the defendant." 
             kristik "Bruh..."
+            stop music 
+            play sound "audio/objection.ogg"
+            show white onlayer misc4
+            show objection onlayer misc3:
+                zoom 0.7
+            $ renpy.pause(0.01,hard=True)
+            hide white onlayer misc4
+            with dissolve
             haruhi "OBJECTION!!!"   
+            hide objection onlayer misc3
             hide court4
             show court2 
             hide seitokaichou5
@@ -11782,6 +11831,7 @@ label chapterfive:
                 xpos 300
                 ypos 29
                 zoom 0.73 
+            play music "audio/Phoenix Wright Ace Attorney OST - Questioning _ Moderato 2001-(128kbps).ogg"
             haruhi "According to his health reports... the defendant is only 40 pounds overweight!!!"
             hide court2
             hide haruhi04
@@ -11831,7 +11881,9 @@ label chapterfive:
             show haruhi15:
                 xpos 300
                 ypos 29
-                zoom 0.73    
+                zoom 0.73   
+            stop music 
+            play music "audio/Sanoba Witch OST - What-(128kbps).ogg"
             haruhi "I got nothing lol.." 
             kristikmind "{i}WTF kind of lwayer did i get...?!!!"  
             hide haruhi15
@@ -11839,6 +11891,9 @@ label chapterfive:
                 xpos 300
                 ypos 29
                 zoom 0.73  
+            stop music fadeout 1.0
+            play music "audio/Phoenix Wright Ace Attorney OST - Trial-(128kbps).ogg" fadein 1.0
+
             haruhi "However, we're so good we don't need an opening statement."
             kristikmind "{i}i got a bad feeling about this..."
             hide court2
@@ -11890,7 +11945,16 @@ label chapterfive:
                 zoom 0.8 
             mikuru "Umm.. I was being stalked by that man..."
             kristikmind "{i}WHAT THE FUCK?!!!! IVE NEVER EVEN STALKED THAT PERSON!!!!" 
-            haruhi "OBJECTION!!!!"
+            stop music
+            play sound "audio/objection.ogg"
+            show white onlayer misc4
+            show objection onlayer misc3:
+                zoom 0.7
+            $ renpy.pause(0.01,hard=True)
+            hide white onlayer misc4
+            with dissolve
+            haruhi "OBJECTION!!!!"   
+            hide objection onlayer misc3
             hide mikuru1
             hide court3
             show court2 
@@ -11899,6 +11963,7 @@ label chapterfive:
                 ypos 79
                 zoom 0.73 
             with dissolve   
+            play music "audio/Phoenix Wright Ace Attorney OST - Questioning _ Moderato 2001-(128kbps).ogg"
             haruhi "My client has never even seen that person! What evidence does she have that would prove her being stalked?"
             hide court2
             hide haruhi03
@@ -11923,8 +11988,17 @@ label chapterfive:
             assistant "Mikuru, what evidence do you have?"     
             hide seitokaichou2 onlayer mcsprite             
             mikuru "Umm... I uhh... saw him..."
-            kristikmind "{i}WTF KIND OF BULLSHIT EVIDENCE IS THAT?!!!"     
-            haruhi "OBJECTION!!!!"
+            kristikmind "{i}WTF KIND OF BULLSHIT EVIDENCE IS THAT?!!!"    
+            stop music
+            play sound "audio/objection.ogg"
+            show white onlayer misc4
+            show objection onlayer misc3:
+                zoom 0.7
+            $ renpy.pause(0.01,hard=True)
+            hide white onlayer misc4
+            with dissolve
+            haruhi "OBJECTION!!!!"   
+            hide objection onlayer misc3
             hide mikuru4
             hide court3
             show court2 
@@ -11963,6 +12037,7 @@ label chapterfive:
                 ypos 500
                 zoom 0.6 
             with dissolve
+            play music "audio/Phoenix Wright Ace Attorney OST - Questioning _ Moderato 2001-(128kbps).ogg"
             assistant "Mikuru, are you telling the truth?"
             hide seitokaichou2 onlayer mcsprite
             hide mikuru4
@@ -11992,6 +12067,8 @@ label chapterfive:
                 xpos 240
                 ypos -32
                 zoom 0.8 
+            stop music
+            play sound "audio/question.ogg"
             mikuru "I have no evidence! I was just paid by the D.A. to say this!"
             kristikmind "{i}N-NANI?!?!!"
             hide court3
@@ -12000,7 +12077,8 @@ label chapterfive:
             show mori1:
                 xpos 400
                 ypos -40
-                zoom 0.8   
+                zoom 0.8  
+            play music "audio/Phoenix Wright Ace Attorney OST - Pressing Pursuit Cornered-(128kbps).ogg" 
             judge "Wow."
             hide mori1
             show mori3:
@@ -12070,6 +12148,7 @@ label chapterfive:
                 xpos 400
                 ypos -40
                 zoom 0.8   
+            play sound "audio/question.ogg"
             judge "How about you cross examinate deez nuts?"
             judge "This court is adjourned. Go home."
             kristikmind "{i}LETS GOOOOO LOOOOOLL!!!!"
@@ -12087,7 +12166,8 @@ label chapterfive:
                 xpos 300
                 ypos 29
                 zoom 0.73    
-            haruhi "Another resounding success... thanks to me."   
+            haruhi "Another resounding success... thanks to me."  
+            stop music fadeout 2.0 
             hide haruhi02
             hide court2
             with dissolve
@@ -12101,6 +12181,7 @@ label chapterfive:
             $ show_quick_menu = True
             $ renpy.pause(1,hard=True)
             with dissolve
+            play music "audio/Riddle Joker Original Soundtrack OST Secret Lab Instrumental-(128kbps).ogg"
             show haruhi08:
                 xpos 200
                 zoom 0.8 
@@ -12117,6 +12198,7 @@ label chapterfive:
             show haruhi07:
                 xpos 200
                 zoom 0.8             
+            play sound "audio/Door knocking sound effect-(128kbps).ogg"
             #========================================================================================================================================================
             #       PLAY DOOR KNOCKING SOUNDS
             #========================================================================================================================================================      
@@ -12124,6 +12206,7 @@ label chapterfive:
             haruhi "Who's knocking at the door at this hour?"
             hide haruhi07
             with dissolve
+            play sound "audio/Door Opening - Sound Effect _ ProSounds-(128kbps).ogg"
             #========================================================================================================================================================
             #       PLAY DOOR OPENING SOUNDS
             #========================================================================================================================================================      
@@ -12134,6 +12217,7 @@ label chapterfive:
             with dissolve        
             kristik "There was just a note outside the door..."
             haruhi "What??? A note??? Let me see it!"
+            stop music fadeout 2.0
             hide haruhi07
             show note
             with dissolve
@@ -12144,6 +12228,7 @@ label chapterfive:
                 xpos 200
                 zoom 0.8  
             with dissolve 
+            play music "audio/Sanoba Witch OST - Fushigi-na Chikara-(128kbps).ogg" fadein 1.0
             haruhi "What?? What does this even mean?"
             kristik "Are they going to kill me?!"
             hide haruhi07
@@ -12162,6 +12247,7 @@ label chapterfive:
             hide haruhi08
             with dissolve
             kristik "WAIT DON'T JUST LEAVE ME!!!"
+            play sound "audio/Door Opening - Sound Effect _ ProSounds-(128kbps).ogg"
             #========================================================================================================================================================
             #       PLAY DOOR CLOSING SOUNDS
             #========================================================================================================================================================      
@@ -12171,6 +12257,8 @@ label chapterfive:
             kristik "Fuck bro I gotta buy some guns!!"
             hide BG025
             show BG025n
+            play sound "audio/Light Switch Sound Effect-(128kbps).ogg"
+            stop music fadeout 1.0
             #========================================================================================================================================================
             #       PLAY LIGHT SWITCH SOUND
             #========================================================================================================================================================  
@@ -12187,7 +12275,8 @@ label chapterfive:
             show sho21a_504:
                 xpos 250
                 ypos 30
-                zoom 1            
+                zoom 1      
+            play sound "audio/Light Switch Sound Effect-(128kbps).ogg"
             #========================================================================================================================================================
             #       PLAY LIGHT SWITCH SOUND
             #========================================================================================================================================================      
@@ -12197,6 +12286,7 @@ label chapterfive:
                 xpos 250
                 ypos 30
                 zoom 1  
+            play music "audio/Sanoba Witch OST Real Friend InstVer 128k.ogg"
             beatrice "What are you doing??!!! Stop peeing!!"  
             kristik "WAAHHH!H!!!!!!!"
             hide sho21a_401
@@ -12312,6 +12402,7 @@ label chapterfive:
                         xpos 250
                         ypos 30
                     beatrice "Yeah, there shouldn't be any problems. Let's go! (dababy)"
+                    stop music fadeout 2.0
                     hide sho21a_101
                     hide BG025
                     with dissolve
@@ -12350,6 +12441,7 @@ label chapterfive:
                         xpos 250
                         ypos 30                     
                     beatrice "Be quiet! You're coming with me!"
+                    stop music fadeout 2.0
                     hide sho21a_201a
                     hide BG025
                     with dissolve
@@ -12369,6 +12461,8 @@ label finalPart:
     window show
     with dissolve 
     show BG011
+    play music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps) intro.ogg"
+    queue music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps).ogg"
     with dissolve  
     $ renpy.pause(0.5,hard=True)
     kristik "Who knew I would be here again..."  
@@ -12512,6 +12606,7 @@ label finalPart:
         kristik "This is some uber mega hard shit...."
         kristik "But I suppose I shall try to get all 4 of them!"
         kristik "NTR STYLE!!!"
+        stop music fadeout 2.0
         hide BG021
         with dissolve
         window hide
@@ -12528,6 +12623,8 @@ label beatricepart:
     with dissolve 
     show kor1
     with dissolve  
+    play music "audio/Riddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps) intro.ogg"
+    queue music "audio/Riddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps).ogg"
     $ renpy.pause(0.5,hard=True)
     kristik "Where the fuck are we...?"
     show sho21a_004:
@@ -12595,6 +12692,7 @@ label beatricepart:
     hide sho21a_004
     with dissolve
     kristik "What the fuck am I getting myself into..."
+    stop music fadeout 2.0
     hide kor1
     with dissolve
     $ show_quick_menu = False
@@ -12607,6 +12705,8 @@ label beatricepart:
     show kor9
     with dissolve  
     $ renpy.pause(0.5,hard=True)
+    play music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps) intro.ogg"
+    queue music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps).ogg"
     show sho21a_004:
         xpos 250
         ypos 30
@@ -12835,6 +12935,7 @@ label beatricepart:
         xpos 0
         ypos 30
     kristik "Damn.... my indian heart can't take this anymore...."
+    stop music fadeout 2.0
     hide sho21a_102
     hide jasonc (9)
     with dissolve
@@ -12849,6 +12950,7 @@ label beatricepart:
     with dissolve     
     show kor3
     with dissolve
+    play music "audio/Sanoba Witch OST - Midday Star(InstVer.)-(128kbps).ogg"
     show sho21a_005:
         xpos 250
         ypos 30
@@ -12879,6 +12981,7 @@ label beatricepart:
     show sho21a_005:
         xpos 250
         ypos 30
+    stop music fadeout 2.0
     citizen "Hey! Look! A fight is going to break out!"
     hide sho21a_005
     show sho21a_101:
@@ -12896,6 +12999,9 @@ label beatricepart:
     with dissolve
     show kor2
     with dissolve
+    play music "audio/Riddle Joker OST _ Invisibly Faster-(128kbps) intro.ogg"
+    queue music "audio/Riddle Joker OST _ Invisibly Faster-(128kbps).ogg"
+
     show kevin (2):
         xpos 400
         zoom 0.6
@@ -13029,6 +13135,7 @@ label beatricepart:
     beatrice "Geez, I didn't expect him to be the one getting the beating..."  
     hide sho21a_504 onlayer mcsprite     
     kristik "YOU'RE NOT HELPING!!!"   
+    stop music fadeout 2.0
     jason "Bill, stand down."
     hide billc (6)
     show jasonc (146):
@@ -13047,6 +13154,8 @@ label beatricepart:
         xpos 400
         ypos 30
         zoom 0.6  
+    #play music "audio/Sanoba Witch OST - What-(128kbps).ogg"
+    play music "audio/Sanoba Witch OST - What-(128kbps).ogg"
     jason "Are you trying to make a fool of me? I said back off or you'll be the one lying dead on the street."
     show billc (2) onlayer mcsprite:
         xpos -70
@@ -13070,7 +13179,7 @@ label beatricepart:
         zoom 0.6
         ease 0.5 xpos 900    
     hide kevin (9) 
-    
+    play sound "audio/fast run sound effect-(128kbps).ogg"
     #================================================================================================================================================
     #               PLAY RUNNING SOUNDS
     #================================================================================================================================================
@@ -13129,6 +13238,7 @@ label beatricepart:
         xpos 700
         zoom 0.6
     bill "I'M SORRY!!!! WAHAHAHAH!!!!"
+    stop music fadeout 2.0
     hide billc (41)
     hide jasonc (11)
     with dissolve
@@ -13143,6 +13253,8 @@ label beatricepart:
     with dissolve 
     show kor11
     with dissolve
+    play music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k intro.ogg"
+    queue music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k.ogg"
     hide jasonc (6)
     show jasonc (10) onlayer master1:
         xpos 0
@@ -13283,6 +13395,7 @@ label beatricepart:
         xpos 700
         ypos 30  
     beatrice "So dumb..."
+    stop music fadeout 2.0
     hide sho21a_503 onlayer master3
     hide jasonc (140) onlayer master1
     hide billc (1) onlayer master2 
@@ -13302,6 +13415,8 @@ label beatricepart:
         xpos 300
         ypos 30
     with dissolve
+    play music "audio/Sanoba Witch OST - Hare-Hare Kibun-320k intro.ogg"
+    queue music "audio/Sanoba Witch OST - Hare-Hare Kibun-320k.ogg"
     beatrice "Any ideas?"
     hide sho21a_501
     show sho21a_502:
@@ -13472,6 +13587,7 @@ label beatricepart:
             ypos 500
             zoom 0.7
         beatrice "Hmmm...."
+        stop music
         hide sho21a_504 onlayer mcsprite        
         play sound "audio/awp.mp3" 
         hide beef
@@ -13499,7 +13615,8 @@ label beatricepart:
         hide kevin (8)
         show kevin (11):
             xpos 400
-            zoom 0.6   
+            zoom 0.6  
+        play music "audio/Sanoba Witch OST - Setsunakute-(128kbps).ogg" 
         kevin "WAHHHH!!!!"
         kristik "TF??? WHY YOU CRYIN???"
         hide kevin (11)
@@ -13524,6 +13641,8 @@ label beatricepart:
         show kevin (3):
             xpos 400
             zoom 0.6 
+        stop music
+        play music "audio/Sanoba Witch OST - Midday Star(InstVer.)-(128kbps).ogg"
         kevin "DEAL!!!!"
         kristikmind "{i}WTF HE ACCEPTED THAT FAST???!"
         show sho21a_503 onlayer mcsprite:
@@ -13546,6 +13665,7 @@ label beatricepart:
         hide sho21a_201 onlayer mcsprite  
         kevin "Goodbye Kribshit Lol."
         kristik "UGHGH....."
+        stop music fadeout 2.0
         hide kevin (2)
         hide beef
         hide kor6
@@ -13627,6 +13747,8 @@ label beatricepart:
         show kevin (12):
             xpos 700
             zoom 0.6
+        stop music 
+        play music "audio/Sanoba Witch OST - Sweet Treasure(QuietVer.)-(128kbps).ogg"
         kevin "I love you!"
         hide billc (2)
         show billc (7):
@@ -13745,6 +13867,7 @@ label beatricepart:
             zoom 0.6
         bill "Yeah!!!"
         kristikmind "{i}God... this shit is so gay...."
+        stop music fadeout 2.0
         hide billd (4)
         hide kevin (3)
         hide kor7
@@ -13785,11 +13908,11 @@ label beatricepart:
         show simyoung2
         simyo "Everyone, what does 'Sir' mean to you?"
         simyo "It's a title I always missed."
-        simyo "It's our hearts."
+        simyo "It's our hearts. In our minds."
         hide simyoung2
         show simyoung3
         simyo "It's a name that we adore and weep for many years."
-        simyo "This name, is to our social paradise everyone!!!!"
+        simyo "This name, is to our social paradise everyone!!!!{p=3.7}{nw}"
         play sound "audio/awp.mp3" 
         hide simyoung3
         show white
@@ -13879,7 +14002,9 @@ label beatricepart:
         window show
         with dissolve 
         show kor7
-        with dissolve            
+        with dissolve    
+        play music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k intro.ogg"
+        queue music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k.ogg"     
         show sho21a_952:
             xpos 300
             ypos 30
@@ -13915,7 +14040,8 @@ label beatricepart:
         window show
         with dissolve 
         show hideout
-        with dissolve      
+        with dissolve     
+        play sound "audio/Escape From Tarkov - Hideout Ambient Sound.rat-HQ.ogg" loop
         show sho21a_911 onlayer mcsprite:
             xpos -150
             ypos 500
@@ -14366,6 +14492,8 @@ label beatricepart:
                 ypos 500
                 zoom 0.7               
             beatrice "Stop crying and get going!"
+            stop music fadeout 2.0
+            stop sound fadeout 2.0
             hide sho21a_921 onlayer mcsprite
             hide hideout
             with dissolve
@@ -14375,6 +14503,7 @@ label beatricepart:
             $ renpy.pause(1,hard=True)
             show customs1          
             with dissolve    
+            play sound "audio/Rain with Thunder Sounds _ Escape from Tarkov - One Hours _ Game Ambience ASMR-(128kbps).ogg" fadein 2.0 loop
             show tarkovlbel
             with dissolve     
             $ renpy.pause(3,hard=True)
@@ -14509,6 +14638,7 @@ label beatricepart:
                         $ renpy.pause(2,hard=True)
                         kristik "BEATRICE!!!"
                         hide customs3
+                        stop sound fadeout 2.0
                         with dissolve
                         $ show_quick_menu = False
                         window hide 
@@ -14523,6 +14653,7 @@ label beatricepart:
                         $ renpy.pause(6.9, hard=True)   
                         hide tarkovdeath
                         $ renpy.pause(1, hard=True) 
+                        stop sound fadeout 2.0
                         "Kristik was unable to shoot the target fast enough and died due to a sudden explosion of a concealed landmine."
                         "His body and limbs were blown into pieces."
                         "{b} Bad ending 8/21"  
@@ -14553,6 +14684,7 @@ label beatricepart:
                     beatrice "Yeah and that meta sucks ass! Now hurry up and take this M4!"                    
                     hide sho21a_921 onlayer mcsprite
                     kristik "AUuUHUGhghgh.gh.g.hf.gh.fgh.gh,g.h,tgfhmdorhuyduiorhtydryzdy"        
+                    stop sound fadeout 2.0
                     hide customs1
                     with dissolve
                     $ show_quick_menu = False
@@ -14560,6 +14692,7 @@ label beatricepart:
                     with dissolve 
                     $ renpy.pause(1,hard=True)
                     show customs2          
+                    play sound "audio/The Ambient Sounds of Tarkov-(128kbps).ogg" fadein 2.0 loop
                     with dissolve
                     $ show_quick_menu = True
                     window show
@@ -14646,6 +14779,7 @@ label beatricepart:
                         $ renpy.pause(2,hard=True)
                         kristik "BEATRICE!!!"
                         hide customs2
+                        stop sound fadeout 2.0
                         with dissolve
                         $ show_quick_menu = False
                         window hide 
@@ -14661,6 +14795,7 @@ label beatricepart:
                         $ renpy.pause(6.9, hard=True)   
                         hide tarkovdeath
                         $ renpy.pause(1, hard=True) 
+                        stop sound fadeout 2.0
                         "Kristik was unable to shoot the target fast enough and died due to a sudden explosion of a concealed landmine."
                         "His body and limbs were blown into pieces."
                         "{b} Bad ending 76"
@@ -14675,6 +14810,7 @@ label beatricepart:
         label wesleypart:
             show customs1
             with dissolve
+            play sound "audio/Rain with Thunder Sounds _ Escape from Tarkov - One Hours _ Game Ambience ASMR-(128kbps).ogg" fadein 2.0 loop
             $ show_quick_menu = True
             window show
             with dissolve     
@@ -14750,6 +14886,7 @@ label beatricepart:
             with dissolve
             hide customs1
             with dissolve
+            stop sound fadeout 2.0
             $ show_quick_menu = False
             window hide 
             with dissolve 
@@ -14758,7 +14895,8 @@ label beatricepart:
             with dissolve
             $ show_quick_menu = True
             window show
-            with dissolve     
+            with dissolve  
+            play sound "audio/lightingciggie.ogg"   
             show aaron_3:
                 xpos -90
                 ypos 175
@@ -14771,11 +14909,12 @@ label beatricepart:
             with dissolve  
             aaron "Another boring ass day...."
             aaron "With that northern war going on, life is still as boring as if nothing was happening..."
-
+            play sound "audio/Old Ringing Phone Sound - Old Telephone Ring Effect-HQ.ogg"
             #============================================================================================================================================
             # play vintage phone ringing sounds
             #============================================================================================================================================
-            $ renpy.pause(2,hard=True)
+            $ renpy.pause(5,hard=True)
+            stop sound
             hide aaron_8
             show aaron_2:
                 ypos 175
@@ -14802,7 +14941,7 @@ label beatricepart:
             aaron "Alright stop your bitchin and I'll be there. You didn't even tell me where the hell ya'll were."
             kristik "Between the rail tracks and the old dormitories. A set of tents."
             aaron "Ok. But you owe me big time mister mystery man."
-
+            play sound "audio/Telephone, Antique - 1907 Wall Phone_ Hang up Receiver Vintage Entertainment-HQ.ogg"
             #============================================================================================================================================
             # play vintage phone hanging up sounds
             #============================================================================================================================================
@@ -14818,6 +14957,7 @@ label beatricepart:
             $ renpy.pause(2,hard=True)
             show customs1     
             with dissolve
+            play sound "audio/Rain with Thunder Sounds _ Escape from Tarkov - One Hours _ Game Ambience ASMR-(128kbps).ogg" fadein 2.0 loop
             $ show_quick_menu = True
             window show
             with dissolve     
@@ -14829,7 +14969,7 @@ label beatricepart:
             with dissolve            
             wesley "Her heartrate is slowing down."
             wesley "We need to hurry."
-
+            play music "audio/Helicopter Flying Over Head Sound Effects-(128kbps).ogg" fadein 2.0
             #====================================================================================================================
             #play helicopter ambience
             #====================================================================================================================
@@ -14837,10 +14977,16 @@ label beatricepart:
             $ renpy.pause(2,hard=True)
 
             kristik "I hear it!"
+            $ renpy.pause(2,hard=True)
+            stop music fadeout 2.0
+            play music "audio/helicopter.ogg" fadein 2.0
             hide customs1
             show helicopter
             with dissolve
             kristik "Wesley, bring her on! I'll talk to the pilot."
+            stop music fadeout 2.0
+            stop sound fadeout 2.0
+            play music "audio/helicoptercockpit.ogg"
             hide helicopter
             show cockpit
             with dissolve
@@ -14914,6 +15060,7 @@ label beatricepart:
                 label fail_math:
                     "You were unable to answer the question in a timely manner."
                     "You will now die."
+                    stop music fadeout 2.0
                     play sound "audio/awp.mp3"
                     show white
                     hide cockpit
@@ -14940,6 +15087,7 @@ label beatricepart:
                     aaron "Alright."          
                     aaron "Everyone sit your asses down, we're getting to the hospital."
                     hide aaron_11_1 onlayer mcsprite
+                    stop music fadeout 2.0
                     hide cockpit
                     hide wesley_3
                     with dissolve
@@ -14955,6 +15103,7 @@ label beatricepart:
             $ show_quick_menu = True
             window show
             with dissolve
+            play music "audio/Sanoba Witch OST - Fushigi-na Chikara-(128kbps).ogg"
             show wesley_3:
                 xpos 500
                 ypos 60
@@ -14996,6 +15145,7 @@ label beatricepart:
             hide aaron_11_1
             with dissolve
             kristik "And he's gone..."   
+            stop music fadeout 2.0
             hide wesley_3    
             hide wesley_3   
             hide wesley_3       
@@ -15007,12 +15157,27 @@ label beatricepart:
             window hide 
             with dissolve 
             $ renpy.pause(2,hard=True)
+
+            show white_base
+            with dissolve
+            show next_base
+            show transition2
+            with blinds
+            $ renpy.pause(5, hard=True)  
+            hide white_base
+            hide next_base
+            hide transition2
+            with blinds
+            $ renpy.pause(1, hard=True) 
+
+
             "{i} 2 months later..."
             $ renpy.pause(2,hard=True)
             kristik "I haven't seen her in so long..."
             kristik "I hope she's a lot better."
             show BG017n1 
             with dissolve
+            play music "audio/Sanoba Witch OST - Real Friend (Quiet Ver.)-(128kbps).ogg"
             $ show_quick_menu = True
             window show
             with dissolve 
@@ -15050,6 +15215,7 @@ label beatricepart:
             beatrice "Haha! No need to say it. I already know you do."
             kristik "Thanks a lot."
             beatrice "You're welcome."
+            stop music fadeout 2.0
             hide girl
             with dissolve
             $ show_quick_menu = False
@@ -15102,6 +15268,7 @@ label beatricepart:
 
 label chiesterEnding:
     show BG005
+    play music "audio/Riddle Joker Original Soundtrack (OST) _Common Scenery-(128kbps).ogg"
     with dissolve
     $ show_quick_menu = True
     window show
@@ -15248,7 +15415,8 @@ label chiesterEnding:
                 zoom 0.6
             show girl4 (1) onlayer master4:
                 xpos 900
-                zoom 0.6          
+                zoom 0.6        
+            stop music  
             play sound "audio/gunload_Master.wav"
             show gun onlayer misc:
                 xpos 750
@@ -15390,6 +15558,7 @@ label chiesterEnding:
             aaron "I'll send you the address once I'm able to get it picked up."
             hide aaron_11_1 onlayer mcsprite                              
             kristik "Uh... sure I guess..."
+            stop music fadeout 2.0
             hide BG005
             with dissolve
             $ show_quick_menu = False
@@ -15397,6 +15566,7 @@ label chiesterEnding:
             with dissolve 
             $ renpy.pause(2,hard=True)
             show nicehouse 
+            play music "audio/Sanoba Witch OST - Asa no Youki-320k.ogg"
             with dissolve
             $ show_quick_menu = True
             window show
@@ -15548,6 +15718,8 @@ label chiesterEnding:
                         zoom 0.6  
                     c45 "No."
                     hide girl4 (20)
+                    stop music 
+                    play sound "audio/gunload_Master.wav"
                     show girl4 (9):
                         xpos 400
                         zoom 0.6         
@@ -15627,6 +15799,7 @@ label chiesterEnding:
             xpos 400
             zoom 0.6   
         c556 "..."
+        stop music fadeout 2.0
 
         #============================================================================================================
         # slowly fade bg music
@@ -15638,6 +15811,8 @@ label chiesterEnding:
             xpos 250
             ypos -30
             zoom 0.6   
+        play music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps) intro.ogg"
+        queue music "audio/Riddle Joker Original Soundtrack OST _Precious Memories-(128kbps).ogg"
         c556 "Guess I can't help it then!"
         hide girl5 (20)
         show girl5 (26):
@@ -15699,7 +15874,7 @@ label chiesterEnding:
         #===========================================================================
         # play phone ringing
         #===========================================================================   
-
+        play sound "audio/notification.mp3"
         $ renpy.pause(2,hard=True)
 
         kristik "Hello?" 
@@ -15749,28 +15924,32 @@ label chiesterEnding:
         #===========================================================================
         # play phone hangup sound
         #===========================================================================   
-
+        play sound "audio/iphonehangup.ogg"
         $ renpy.pause(2,hard=True)         
         kristik "Bruh...."   
         kristik "They're gonna watch me...."
         kristik "I'm just... I'm just gonna go to bed."
         kristik "I'm too tired to deal with this shit."
+        stop music fadeout 2.0
         hide niceroom
         with dissolve
         $ show_quick_menu = False
         window hide 
         with dissolve 
-        $ renpy.pause(1,hard=True)
+        $ renpy.pause(2,hard=True)
+        play sound "audio/dawnofthefirstday.ogg"
         show day1
-        $ renpy.pause(3,hard=True)
+        $ renpy.pause(5,hard=True)
         hide day1
         with dissolve
-        $ renpy.pause(1,hard=True)
+        $ renpy.pause(2,hard=True)
         show niceroom2
         with dissolve
         $ show_quick_menu = True
         window show
         with dissolve   
+        play music "audio/Riddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps) intro.ogg"
+        queue music "audio/Riddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps).ogg"
         kristik "Day 1 to get some bitches..."
         kristik "Wonder what I should do...?" 
         kristik "Maybe... I should cook them something!"
@@ -15800,6 +15979,7 @@ label chiesterEnding:
                     xpos 400
                     zoom 0.6
                 kristik "I'm making a FATASS CURRY BROOOO!!!"  
+                stop music
                 play sound "audio/gunload_Master.wav"
                 show gun onlayer misc:
                     xpos 600
@@ -16017,6 +16197,7 @@ label chiesterEnding:
                     $ show_quick_menu = True
                     window show               
                     kristik "It looks like absolute shit. Where's the indian??!"
+                    stop music
                     play sound "audio/gunload_Master.wav"
                     $ renpy.pause(0.8,hard=True)                                                                        
                     kristik "WHY DO I FEEL A GUN TO MY HEAD???!"
@@ -16150,6 +16331,7 @@ label chiesterEnding:
                             $ show_quick_menu = True
                             window show                        
                             kristik "Yes."
+                            stop music
                             play sound "audio/gunload_Master.wav"                             
                             show gun onlayer misc:
                                 xpos 600
@@ -16343,6 +16525,7 @@ label chiesterEnding:
                                         xpos 200
                                         zoom 0.6
                                     c410 "It's fine. We can wait as long as we want anyways."
+                                    stop music fadeout 2.0
                                     hide girl6 (2)
                                     hide girl5 (16)
                                     with dissolve
@@ -16376,6 +16559,7 @@ label chiesterEnding:
                                         zoom 0.6                                              
                                     with dissolve
                                     c00 "Tch. He's just going to get fatter by the day."
+                                    stop music fadeout 2.0
                                     hide girl4 (8)
                                     hide girl7 (16)
                                     with dissolve
@@ -16390,6 +16574,8 @@ label chiesterEnding:
         label gym:
             show BG048
             with dissolve
+            play music "audio/Sanoba Witch OST - Sweet Sweet Alice(InstVer.)-128k intro.ogg"
+            queue music "audio/Sanoba Witch OST - Sweet Sweet Alice(InstVer.)-128k.ogg"
             $ show_quick_menu = True
             window show
             with dissolve 
@@ -16455,6 +16641,7 @@ label chiesterEnding:
             c00 "Jeez. Fell asleep..."
             c45 "He's gonna need some rest otherwise he'll probably die..."
             c00 "Yeah..."
+            stop music fadeout 2.0
             hide girl7 (10)
             hide girl4 (11)
             with dissolve
@@ -16463,13 +16650,16 @@ label chiesterEnding:
             $ show_quick_menu = False
             window hide 
             with dissolve 
-            $ renpy.pause(1,hard=True)
+            $ renpy.pause(2,hard=True)
+            play sound "audio/dawnofthefirstday.ogg"
             show day2
-            $ renpy.pause(3,hard=True)
+            $ renpy.pause(5,hard=True)
             hide day2
             with dissolve
-            $ renpy.pause(1,hard=True)
+            $ renpy.pause(2,hard=True)
             show niceroom3
+            play music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k intro.ogg"
+            queue music "audio/Sanoba Witch OST  - Juu-Jitsu Seikatsu-320k.ogg"
             with dissolve
             $ show_quick_menu = True
             window show
@@ -16480,7 +16670,7 @@ label chiesterEnding:
             #========================================================================================================================================================================
             #PLAY PHONE RINGING SOUND
             #========================================================================================================================================================================
-
+            play sound "audio/notification.mp3"
             $ renpy.pause(2,hard=True)
             kristik "heellOO???"
             show aaron_11_1 onlayer mcsprite:
@@ -16525,8 +16715,10 @@ label chiesterEnding:
                 xpos -80
                 ypos 490
                 zoom 0.4        
+            stop music fadeout 2.0
             aaron "That's right. You'll pay with your own life."
             hide aaron_11_1 onlayer mcsprite  
+            play music "audio/Sanoba Witch OST - Fushigi-na Chikara-(128kbps).ogg"
             kristik "HUH?!??!?!?!"
             show aaron_11_1 onlayer mcsprite:
                 xpos -80
@@ -16540,7 +16732,7 @@ label chiesterEnding:
             #========================================================================================================================================================================
             #PLAY PHONE HANGING UP SOUND
             #========================================================================================================================================================================
-
+            play sound "audio/iphonehangup.ogg"
             $ renpy.pause(2,hard=True)   
             kristik "ARE YOU... SERIOUS RIGHT NOW???!?!?!?"
             show girl7 (13):
@@ -16580,6 +16772,7 @@ label chiesterEnding:
             with dissolve
             kristik "Ok... it looks like the PMCs aren't here."
             kristik "Now... let's just get the fuck outta here!!"
+            stop music fadeout 2.0
             hide nicehouse
             with dissolve
             $ show_quick_menu = False
@@ -16605,6 +16798,7 @@ label chiesterEnding:
         label dungeon:
             show BG080B
             with dissolve
+            play music "audio/Riddle Joker Original Soundtrack OST Secret Lab Instrumental-(128kbps).ogg"
             $ show_quick_menu = True
             window show
             with dissolve 
@@ -16629,6 +16823,7 @@ label chiesterEnding:
             $ renpy.pause (2,hard=True)
             kristikmind "{i}Yuck! This shit tasted nasty!"
             kristikmind "{i} I think i'm getting lightheaded...."
+            stop music fadeout 4.0
             hide BG080B
             with Pixellate(2,5)
             $ show_quick_menu = False
@@ -16637,6 +16832,7 @@ label chiesterEnding:
             $ renpy.pause(2,hard=True)
             show dungeon
             with dissolve
+            play sound "audio/darkambience.ogg" loop
             $ show_quick_menu = True
             window show
             with dissolve
@@ -16680,6 +16876,7 @@ label chiesterEnding:
             c556 "Nope~!"
             c556 "We hope you enjoy your permanent stay!"
             c556 "You're going to love it... ~~~"
+            stop sound fadeout 2.0
             hide girl5 (21)
             hide girl6 (3)
             with dissolve
@@ -16729,6 +16926,7 @@ label noHoesEnding:
         xpos 0
         zoom 0.6     
     with dissolve
+    play music "audio/Sabona Witch OST - Chotto Ennui-128k.ogg"
     kristik "Nothing..."
     kristik "It's just for some reason, the girls I talked to aren't responding to my texts anymore."
     kristik "They're not even being read!"
@@ -16808,6 +17006,7 @@ label noHoesEnding:
     $ show_quick_menu = False
     window hide 
     with dissolve 
+    stop music fadeout 2.0
     hide BG080N
     with dissolve
     $ renpy.pause(3,hard=True)

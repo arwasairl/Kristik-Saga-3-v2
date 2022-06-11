@@ -21,14 +21,14 @@
     <EnableLogging>False</EnableLogging>
   </KeysGenerator>
   <Input>
-    <FileName>C:\Users\AARON\Downloads\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3.exe</FileName>
-    <ProductName>Kristik Saga 3</ProductName>
-    <VersionInfo>2.0.0.0</VersionInfo>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\KristikSaga3.exe</FileName>
+    <ProductName>Kristik Saga 3 Limited Access BETA</ProductName>
+    <VersionInfo>0.2.2.0b</VersionInfo>
     <ProductInfoFromResources>False</ProductInfoFromResources>
   </Input>
   <Output>
-    <SameAsInputFile>False</SameAsInputFile>
-    <FileName>C:\Users\AARON\Downloads\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3_protected.exe</FileName>
+    <SameAsInputFile>True</SameAsInputFile>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\KristikSaga3.exe</FileName>
     <DoNotBackup>False</DoNotBackup>
   </Output>
   <AdvanceInput>
@@ -113,8 +113,8 @@
         <Path>\SOFTWARE\Kristik Saga 3\</Path>
       </Registry>
       <FileSystem>
-        <Base>MyDocumentsFolder</Base>
-        <Path>\Kristik Saga 3\license.dat</Path>
+        <Base>DefaultFolder</Base>
+        <Path>\license.dat</Path>
         <SetFileAttributes>True</SetFileAttributes>
         <FileAttributesArchive>True</FileAttributesArchive>
         <FileAttributesReadOnly>False</FileAttributesReadOnly>
@@ -125,10 +125,10 @@
       <EncryptWithHardwareId>True</EncryptWithHardwareId>
     </RegistrationDataStoring>
     <Common>
-      <Unicode>True</Unicode>
+      <Unicode>False</Unicode>
       <AllowHardwareLockedKeys>False</AllowHardwareLockedKeys>
       <AllowTimeLimitedKeys>False</AllowTimeLimitedKeys>
-      <AllowExecOnlyIfRegistered>True</AllowExecOnlyIfRegistered>
+      <AllowExecOnlyIfRegistered>False</AllowExecOnlyIfRegistered>
       <KeyMode>0</KeyMode>
       <KeyBase>3</KeyBase>
       <EncryptApplication>False</EncryptApplication>
@@ -144,11 +144,11 @@
       <UseVolumeSerialDrive>False</UseVolumeSerialDrive>
       <UseSystemVolumeName>False</UseSystemVolumeName>
       <UseComputerName>False</UseComputerName>
-      <UseCPUType>True</UseCPUType>
+      <UseCPUType>False</UseCPUType>
       <UseWindowsKey>False</UseWindowsKey>
-      <UseMotherboard>True</UseMotherboard>
-      <UseHDDSerial>True</UseHDDSerial>
-      <UseUserName>True</UseUserName>
+      <UseMotherboard>False</UseMotherboard>
+      <UseHDDSerial>False</UseHDDSerial>
+      <UseUserName>False</UseUserName>
       <VolumeSerialDriveChange>0</VolumeSerialDriveChange>
       <SystemVolumeNameChange>0</SystemVolumeNameChange>
       <ComputerNameChange>0</ComputerNameChange>
@@ -189,7 +189,7 @@
       <HardwareConstant>56AE54F024CCC5C195CEA32C3B185309</HardwareConstant>
     </Constants>
     <RegistrationDialog>
-      <Form>VFBGMCZURW5pZ21hUHJvdGVjdG9yTG9hZGVyUmVnaXN0cmF0aW9uRm9ybRBSZWdpc3RyYXRpb25Gb3JtBExlZnQDTwMDVG9wA6gBCkF1dG9TY3JvbGwIB0NhcHRpb24GJyVBcHBOYW1lJSAlQXBwVmVycyUgUmVnaXN0cmF0aW9uIERpYWxvZwxDbGllbnRIZWlnaHQDCAELQ2xpZW50V2lkdGgDMAEFQ29sb3IHCWNsQnRuRmFjZQxGb250LkNoYXJzZXQHD0RFRkFVTFRfQ0hBUlNFVApGb250LkNvbG9yBwxjbFdpbmRvd1RleHQLRm9udC5IZWlnaHQC9QlGb250Lk5hbWUGDU1TIFNhbnMgU2VyaWYKRm9udC5TdHlsZQsADk9sZENyZWF0ZU9yZGVyCQhQb3NpdGlvbgcOcG9TY3JlZW5DZW50ZXIKT25BY3RpdmF0ZQcMRm9ybUFjdGl2YXRlCE9uQ3JlYXRlBwpGb3JtQ3JlYXRlCk9uU2hvcnRDdXQHC093blNob3J0Q3V0Bk9uU2hvdwcIRm9ybVNob3cLQ2xpY2tBY3Rpb24HBmNhTm9uZQtDbG9zZUFjdGlvbgcGY2FFeGl0CkRlc2lnblNpemUBAzABAwgBAA1QaXhlbHNQZXJJbmNoAmAKVGV4dEhlaWdodAINAB5URW5pZ21hUHJvdGVjdG9yTG9hZGVyR3JvdXBib3gJR3JvdXBib3gxBExlZnQCCANUb3ACCAVXaWR0aAMfAQZIZWlnaHQCMQdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAAHQ2FwdGlvbgYLSGFyZHdhcmUgSUQMRm9udC5DaGFyc2V0BwxBTlNJX0NIQVJTRVQKRm9udC5Db2xvcgcMY2xXaW5kb3dUZXh0C0ZvbnQuSGVpZ2h0AvUJRm9udC5OYW1lBghTZWdvZSBVSQpGb250LlN0eWxlCwZmc0JvbGQAClBhcmVudEZvbnQICFRhYk9yZGVyAgAKRGVzaWduU2l6ZQEDHwECMQAAGlRFbmlnbWFQcm90ZWN0b3JMb2FkZXJFZGl0BUVkaXQxBExlZnQCCANUb3ACEgVXaWR0aAP5AAZIZWlnaHQCFQdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAAIUmVhZE9ubHkJCFRhYk9yZGVyAgAHQ29udGVudAcMY29IYXJkd2FyZUlEDlNob3dDb3B5QnV0dG9uCQ9TaG93UGFzdGVCdXR0b24IAAAAHlRFbmlnbWFQcm90ZWN0b3JMb2FkZXJHcm91cGJveAlHcm91cGJveDIETGVmdAIIA1RvcAJABVdpZHRoAx8BBkhlaWdodAOaAAdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAhha0JvdHRvbQAHQ2FwdGlvbgYYUmVnaXN0cmF0aW9uIEluZm9ybWF0aW9uDEZvbnQuQ2hhcnNldAcMQU5TSV9DSEFSU0VUCkZvbnQuQ29sb3IHDGNsV2luZG93VGV4dAtGb250LkhlaWdodAL1CUZvbnQuTmFtZQYIU2Vnb2UgVUkKRm9udC5TdHlsZQsGZnNCb2xkAApQYXJlbnRGb250CAhUYWJPcmRlcgIBCkRlc2lnblNpemUBAx8BA5oAAAAbVEVuaWdtYVByb3RlY3RvckxvYWRlckxhYmVsBkxhYmVsMQRMZWZ0AggDVG9wAhAFV2lkdGgCHQZIZWlnaHQCDQdDYXB0aW9uBgROYW1lDEZvbnQuQ2hhcnNldAcMQU5TSV9DSEFSU0VUCkZvbnQuQ29sb3IHDGNsV2luZG93VGV4dAtGb250LkhlaWdodAL1CUZvbnQuTmFtZQYIU2Vnb2UgVUkKRm9udC5TdHlsZQsAClBhcmVudEZvbnQIAAAbVEVuaWdtYVByb3RlY3RvckxvYWRlckxhYmVsBkxhYmVsMgRMZWZ0AggDVG9wAjgFV2lkdGgCEQZIZWlnaHQCDQdDYXB0aW9uBgNLZXkMRm9udC5DaGFyc2V0BwxBTlNJX0NIQVJTRVQKRm9udC5Db2xvcgcMY2xXaW5kb3dUZXh0C0ZvbnQuSGVpZ2h0AvUJRm9udC5OYW1lBghTZWdvZSBVSQpGb250LlN0eWxlCwAKUGFyZW50Rm9udAgAABpURW5pZ21hUHJvdGVjdG9yTG9hZGVyRWRpdAVFZGl0MgRMZWZ0AggDVG9wAiAFV2lkdGgD+QAGSGVpZ2h0AhUHQW5jaG9ycwsGYWtMZWZ0BWFrVG9wB2FrUmlnaHQACFRhYk9yZGVyAgAHQ29udGVudAcRY29SZWdpc3RyYXRpb05hbWUOU2hvd0NvcHlCdXR0b24ID1Nob3dQYXN0ZUJ1dHRvbgkAABpURW5pZ21hUHJvdGVjdG9yTG9hZGVyTWVtbwVNZW1vMQRMZWZ0AggDVG9wAkgFV2lkdGgD+QAGSGVpZ2h0AkoHQW5jaG9ycwsGYWtMZWZ0BWFrVG9wB2FrUmlnaHQIYWtCb3R0b20ACFRhYk9yZGVyAgEHQ29udGVudAcQY29SZWdpc3RyYXRpb0tleQ5TaG93Q29weUJ1dHRvbggPU2hvd1Bhc3RlQnV0dG9uCQAAABxURW5pZ21hUHJvdGVjdG9yTG9hZGVyQnV0dG9uB0J1dHRvbjIETGVmdAIQA1RvcAPjAAVXaWR0aAJ5BkhlaWdodAIeB0FuY2hvcnMLBmFrTGVmdAdha1JpZ2h0CGFrQm90dG9tAAdDYXB0aW9uBghSZWdpc3RlcgxGb250LkNoYXJzZXQHDEFOU0lfQ0hBUlNFVApGb250LkNvbG9yBwxjbFdpbmRvd1RleHQLRm9udC5IZWlnaHQC9QlGb250Lk5hbWUGCFNlZ29lIFVJCkZvbnQuU3R5bGULBmZzQm9sZAAKUGFyZW50Rm9udAgIVGFiT3JkZXICAgtDbGlja0FjdGlvbgcKY2FSZWdpc3RlcgAAHFRFbmlnbWFQcm90ZWN0b3JMb2FkZXJCdXR0b24HQnV0dG9uMwRMZWZ0A6YAA1RvcAPjAAVXaWR0aAODAAZIZWlnaHQCHgdBbmNob3JzCwdha1JpZ2h0CGFrQm90dG9tAAdDYXB0aW9uBgVDbG9zZQxGb250LkNoYXJzZXQHDEFOU0lfQ0hBUlNFVApGb250LkNvbG9yBwxjbFdpbmRvd1RleHQLRm9udC5IZWlnaHQC9QlGb250Lk5hbWUGCFNlZ29lIFVJCkZvbnQuU3R5bGULBmZzQm9sZAAKUGFyZW50Rm9udAgIVGFiT3JkZXICAwtDbGlja0FjdGlvbgcGY2FFeGl0AAAA</Form>
+      <Form>VFBGMCZURW5pZ21hUHJvdGVjdG9yTG9hZGVyUmVnaXN0cmF0aW9uRm9ybRBSZWdpc3RyYXRpb25Gb3JtBExlZnQDKwMDVG9wA8cBCkF1dG9TY3JvbGwIB0NhcHRpb24GJyVBcHBOYW1lJSAlQXBwVmVycyUgUmVnaXN0cmF0aW9uIERpYWxvZwxDbGllbnRIZWlnaHQDCAELQ2xpZW50V2lkdGgD6QEFQ29sb3IHCWNsQnRuRmFjZQxGb250LkNoYXJzZXQHD0RFRkFVTFRfQ0hBUlNFVApGb250LkNvbG9yBwxjbFdpbmRvd1RleHQLRm9udC5IZWlnaHQC9QlGb250Lk5hbWUGDU1TIFNhbnMgU2VyaWYKRm9udC5TdHlsZQsADk9sZENyZWF0ZU9yZGVyCQhQb3NpdGlvbgcOcG9TY3JlZW5DZW50ZXIKT25BY3RpdmF0ZQcMRm9ybUFjdGl2YXRlCE9uQ3JlYXRlBwpGb3JtQ3JlYXRlCk9uU2hvcnRDdXQHC093blNob3J0Q3V0Bk9uU2hvdwcIRm9ybVNob3cLQ2xpY2tBY3Rpb24HBmNhTm9uZQtDbG9zZUFjdGlvbgcGY2FFeGl0CkRlc2lnblNpemUBA+kBAwgBAA1QaXhlbHNQZXJJbmNoAmAKVGV4dEhlaWdodAINAB5URW5pZ21hUHJvdGVjdG9yTG9hZGVyR3JvdXBib3gJR3JvdXBib3gxBExlZnQCCANUb3ACCAVXaWR0aAPYAQZIZWlnaHQCMQdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAAHQ2FwdGlvbgYLSGFyZHdhcmUgSUQMRm9udC5DaGFyc2V0BwxBTlNJX0NIQVJTRVQKRm9udC5Db2xvcgcMY2xXaW5kb3dUZXh0C0ZvbnQuSGVpZ2h0AvUJRm9udC5OYW1lBghTZWdvZSBVSQpGb250LlN0eWxlCwZmc0JvbGQAClBhcmVudEZvbnQICFRhYk9yZGVyAgAKRGVzaWduU2l6ZQED2AECMQAAGlRFbmlnbWFQcm90ZWN0b3JMb2FkZXJFZGl0BUVkaXQxBExlZnQCCANUb3ACEgVXaWR0aAOyAQZIZWlnaHQCFQdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAAIUmVhZE9ubHkJCFRhYk9yZGVyAgAHQ29udGVudAcMY29IYXJkd2FyZUlEDlNob3dDb3B5QnV0dG9uCQ9TaG93UGFzdGVCdXR0b24IAAAAHlRFbmlnbWFQcm90ZWN0b3JMb2FkZXJHcm91cGJveAlHcm91cGJveDIETGVmdAIIA1RvcAJABVdpZHRoA9gBBkhlaWdodAOaAAdBbmNob3JzCwZha0xlZnQFYWtUb3AHYWtSaWdodAhha0JvdHRvbQAHQ2FwdGlvbgYMUmVnaXN0cmF0aW9uDEZvbnQuQ2hhcnNldAcMQU5TSV9DSEFSU0VUCkZvbnQuQ29sb3IHDGNsV2luZG93VGV4dAtGb250LkhlaWdodAL1CUZvbnQuTmFtZQYIU2Vnb2UgVUkKRm9udC5TdHlsZQsGZnNCb2xkAApQYXJlbnRGb250CAhUYWJPcmRlcgIBCkRlc2lnblNpemUBA9gBA5oAAAAbVEVuaWdtYVByb3RlY3RvckxvYWRlckxhYmVsBkxhYmVsMQRMZWZ0AggDVG9wAhAFV2lkdGgCHQZIZWlnaHQCDQdDYXB0aW9uBgROYW1lDEZvbnQuQ2hhcnNldAcMQU5TSV9DSEFSU0VUCkZvbnQuQ29sb3IHDGNsV2luZG93VGV4dAtGb250LkhlaWdodAL1CUZvbnQuTmFtZQYIU2Vnb2UgVUkKRm9udC5TdHlsZQsAClBhcmVudEZvbnQIAAAbVEVuaWdtYVByb3RlY3RvckxvYWRlckxhYmVsBkxhYmVsMgRMZWZ0AggDVG9wAjgFV2lkdGgCEQZIZWlnaHQCDQdDYXB0aW9uBgNLZXkMRm9udC5DaGFyc2V0BwxBTlNJX0NIQVJTRVQKRm9udC5Db2xvcgcMY2xXaW5kb3dUZXh0C0ZvbnQuSGVpZ2h0AvUJRm9udC5OYW1lBghTZWdvZSBVSQpGb250LlN0eWxlCwAKUGFyZW50Rm9udAgAABpURW5pZ21hUHJvdGVjdG9yTG9hZGVyRWRpdAVFZGl0MgRMZWZ0AggDVG9wAiAFV2lkdGgDsgEGSGVpZ2h0AhUHQW5jaG9ycwsGYWtMZWZ0BWFrVG9wB2FrUmlnaHQACFRhYk9yZGVyAgAHQ29udGVudAcRY29SZWdpc3RyYXRpb05hbWUOU2hvd0NvcHlCdXR0b24ID1Nob3dQYXN0ZUJ1dHRvbgkAABpURW5pZ21hUHJvdGVjdG9yTG9hZGVyTWVtbwVNZW1vMQRMZWZ0AggDVG9wAkgFV2lkdGgDsgEGSGVpZ2h0AkkHQW5jaG9ycwsGYWtMZWZ0BWFrVG9wB2FrUmlnaHQIYWtCb3R0b20ACFRhYk9yZGVyAgEHQ29udGVudAcQY29SZWdpc3RyYXRpb0tleQ5TaG93Q29weUJ1dHRvbggPU2hvd1Bhc3RlQnV0dG9uCQAAABxURW5pZ21hUHJvdGVjdG9yTG9hZGVyQnV0dG9uB0J1dHRvbjIETGVmdAIQA1RvcAPjAAVXaWR0aAPhAAZIZWlnaHQCHgdBbmNob3JzCwZha0xlZnQHYWtSaWdodAhha0JvdHRvbQAHQ2FwdGlvbgYIUmVnaXN0ZXIMRm9udC5DaGFyc2V0BwxBTlNJX0NIQVJTRVQKRm9udC5Db2xvcgcMY2xXaW5kb3dUZXh0C0ZvbnQuSGVpZ2h0AvUJRm9udC5OYW1lBghTZWdvZSBVSQpGb250LlN0eWxlCwZmc0JvbGQAClBhcmVudEZvbnQICFRhYk9yZGVyAgILQ2xpY2tBY3Rpb24HCmNhUmVnaXN0ZXIAABxURW5pZ21hUHJvdGVjdG9yTG9hZGVyQnV0dG9uB0J1dHRvbjMETGVmdAMIAQNUb3AD4wAFV2lkdGgD2gAGSGVpZ2h0Ah4HQW5jaG9ycwsHYWtSaWdodAhha0JvdHRvbQAHQ2FwdGlvbgYERXhpdAxGb250LkNoYXJzZXQHDEFOU0lfQ0hBUlNFVApGb250LkNvbG9yBwxjbFdpbmRvd1RleHQLRm9udC5IZWlnaHQC9QlGb250Lk5hbWUGCFNlZ29lIFVJCkZvbnQuU3R5bGULBmZzQm9sZAAKUGFyZW50Rm9udAgIVGFiT3JkZXICAwtDbGlja0FjdGlvbgcGY2FFeGl0AAAA</Form>
       <Enabled>True</Enabled>
       <ShowOnTrialExpire>False</ShowOnTrialExpire>
       <ShowOnUnregistered>True</ShowOnUnregistered>
@@ -1095,7 +1095,7 @@ try again!</Text>
                 <File>
                   <Type>2</Type>
                   <Name>archive.rpa</Name>
-                  <File>C:\Users\AARON\Downloads\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\game\archive.rpa</File>
+                  <File>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\game\archive.rpa</File>
                   <ActiveX>False</ActiveX>
                   <ActiveXInstall>False</ActiveXInstall>
                   <Action>0</Action>
@@ -1185,7 +1185,7 @@ try again!</Text>
   <Miscellaneous>
     <SplashScreenEncapsulation>
       <Enabled>True</Enabled>
-      <SplashScreenPictureFileName>C:\Users\AARON\Downloads\Kristik Saga 3\splashload.png</SplashScreenPictureFileName>
+      <SplashScreenPictureFileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\Kristik Saga 3\splashload.png</SplashScreenPictureFileName>
       <ShowOnTop>True</ShowOnTop>
       <TimeToShow>2000</TimeToShow>
       <StopExecution>False</StopExecution>
@@ -1213,13 +1213,13 @@ try again!</Text>
       <Language>1033</Language>
       <CompanyName>KrisCorp LLC</CompanyName>
       <FileDescription>Kristik Saga 3 Wrapper Module</FileDescription>
-      <FileVersion>2.0.0.0</FileVersion>
+      <FileVersion>0.2.2.0b</FileVersion>
       <InternalName>ENIGMA.EXE</InternalName>
       <LegalCopyright>Copyrights (C) 2022 KrisCorp LLC</LegalCopyright>
       <LegalTrademarks>Trademarks (R) 2022 KrisCorp LLC</LegalTrademarks>
       <OriginalFilename>enigma.exe</OriginalFilename>
-      <ProductName>Kristik Saga 3</ProductName>
-      <ProductVersion>2.0.0.0</ProductVersion>
+      <ProductName>Kristik Saga 3 Limited Access BETA</ProductName>
+      <ProductVersion>0.2.2.0b</ProductVersion>
       <Comments>https://kristiklal.com/</Comments>
     </CustomVersionResource>
     <CustomManifestResource>
