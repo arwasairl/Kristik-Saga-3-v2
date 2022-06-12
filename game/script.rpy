@@ -778,6 +778,7 @@ init python:
     persistent.endingFinished19 = 0
     persistent.endingFinished20 = 0
     persistent.endingFinished21 = 0
+    persistent.endingFinished22 = 0
 
     EXPsuou = 0
     EXPmayuri = 0
@@ -828,48 +829,6 @@ init python:
     build.classify("game/**.webp", "archive")
 
     config.layers = [ 'master', 'master1', 'master2', 'master3', 'master4', 'misc', 'misc2', 'misc3', 'misc4', 'transient', 'screens', 'overlay', 'mcsprite' ]
-###################################################################################################################################################
-###################################################################################################################################################
-                                                                #DEBUG ITEMS
-###################################################################################################################################################
-###################################################################################################################################################
-
-
-screen Beta:
-    text "BETA v0.2.2.0b! DO NOT REDISTRIBUTE!" xpos -1 ypos 0.00 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-
-
-# screen Stats:
-#     text "!!! DEBUGGING ENVIRONMENT CURRENTLY ACTIVE !!!" xpos 0.25 ypos 0.036  color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "!!! DO NOT USE FOR FINAL RELEASE BUILD !!!" xpos 0.285 ypos 0.070  color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-
-#     text "CURRENT STATS:" xpos 0.85 ypos 0.076 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Suou EXP: [EXPsuou]" xpos 0.87 ypos 0.106 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Mayuri EXP: [EXPmayuri]" xpos 0.87 ypos 0.138 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Yuzuriha EXP: [EXPyuzuriha]" xpos 0.87 ypos 0.168 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Rikka EXP: [EXPrikka]" xpos 0.87 ypos 0.198 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Nerine EXP: [EXPnerine]" xpos 0.87 ypos 0.228 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Ringo EXP: [EXPringo]" xpos 0.87 ypos 0.258 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Chidori EXP: [EXPchidori]" xpos 0.87 ypos 0.288 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Erika EXP: [EXPerika]" xpos 0.87 ypos 0.318 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Ichigo EXP: [EXPichigo]" xpos 0.87 ypos 0.348 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Beatrice EXP: [EXPbeatrice]" xpos 0.87 ypos 0.378 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-
-#     text "REQUIRED STATS:" xpos 0.02 ypos 0.076 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Suou EXP: 9" xpos 0.02 ypos 0.106 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Mayuri EXP: 9" xpos 0.02 ypos 0.138 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Yuzuriha EXP: 9" xpos 0.02 ypos 0.168 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Rikka EXP: 10" xpos 0.02 ypos 0.198 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Nerine EXP: 10" xpos 0.02 ypos 0.228 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Ringo EXP: 8" xpos 0.02 ypos 0.258 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Chidori EXP: 12" xpos 0.02 ypos 0.288 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Erika EXP: 14" xpos 0.02 ypos 0.318 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Ichigo EXP: 9" xpos 0.02 ypos 0.348 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-#     text "Aaron/Wesley EXP: N/A" xpos 0.02 ypos 0.378 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-
-#     text "SYSTEM INFORMATION: NVIDIA GeForce RTX 3080, 16GB DDR5X 5200MHz, i7-12700F 12 CORES 20 THREADS @ 4.2 GHz" xpos 0.02 ypos 0.00 color "#ff1100" outlines [ (absolute(2), "#000", absolute(0), absolute(0)) ]
-
-
 
 ####################################################################################################################################################
 ####################################################################################################################################################
@@ -878,7 +837,7 @@ screen Beta:
 ####################################################################################################################################################
 
 label main_menu:
-    $_dismiss_pause = False
+    $ _dismiss_pause = False
     screen disable_Lmouse():
         key "mouseup_1" action NullAction()
         key "K_RETURN" action NullAction()
@@ -902,12 +861,6 @@ label main_menu:
     hide warning
     $ renpy.transition(dissolve)
     $ renpy.pause(2, hard=True)
-    show beta
-    $ renpy.transition(dissolve)
-    $ renpy.pause(4, hard=True)
-    hide beta
-    $ renpy.transition(dissolve)
-    $ renpy.pause(2, hard=True)
     play music "audio/main-menu-theme.ogg"
     show intro
     $ renpy.pause(1.45, hard=True)
@@ -919,18 +872,6 @@ label main_menu:
 
 label start:
 
-
-    #======================================================================================================
-    ## TODO: REMOVE BELOW FOR RELEASE VERSION
-    #======================================================================================================
-    #show screen Stats
-
-    #======================================================================================================
-    ## TODO: REMOVE BELOW FOR RELEASE VERSION
-    #======================================================================================================
-    show screen Beta
-
-
     $ renpy.transition(dissolve)
     $ renpy.pause(5, hard=True)
     scene blackvoid
@@ -941,9 +882,6 @@ label start:
         jump secretEnding
     else:
         pass
-    #======================================================================================================
-    ## TODO: WHEN DIALOGUE IS COMPLETE RE-HASH AND RENAME VOICE LINE FILES
-    #======================================================================================================
 
     voicevoid "Kristik..."
 
@@ -6749,10 +6687,10 @@ label chapterfour:
                     narrator "You can imagine what happened after that."
                     narrator "I'm not going to type that nor will I subject any poor voice actor to voice that."
                     if EXPsuou >= 9:                 
-                        "{b}Good ending 12/21"  
-                        if (persistent.endingFinished12 < 1):
-                            $ persistent.endingFinished12 += 1
-                        elif (persistent.endingFinished12 >= 1):
+                        "{b}Good ending 17/22"  
+                        if (persistent.endingFinished17 < 1):
+                            $ persistent.endingFinished17 += 1
+                        elif (persistent.endingFinished17 >= 1):
                             pass
                         else:
                             narrator "PERSISTENT DATA FAILURE FOR SECTION 7299. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -7887,10 +7825,10 @@ label chapterfive:
                         with dissolve             
                         narrator "Kristik was killed due to a fatal shot in the chest."
                         narrator "His body disintegrated into the air."
-                        narrator "{b}Bad ending 2/21{/b}"
-                        if (persistent.endingFinished2 < 1):
-                            $ persistent.endingFinished2 += 1
-                        elif (persistent.endingFinished2 >= 1):
+                        narrator "{b}Bad ending 1/22{/b}"
+                        if (persistent.endingFinished1 < 1):
+                            $ persistent.endingFinished1 += 1
+                        elif (persistent.endingFinished1 >= 1):
                             pass
                         else:
                             narrator "PERSISTENT DATA FAILURE FOR SECTION 8937. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -7923,10 +7861,10 @@ label chapterfive:
                         $ show_quick_menu = False
                         with dissolve
                         $ renpy.pause(2,hard=True)
-                        "{b}Good ending 13/21" 
-                        if (persistent.endingFinished13 < 1):
-                            $ persistent.endingFinished13 += 1
-                        elif (persistent.endingFinished13 >= 1):
+                        "{b}Good ending 18/22" 
+                        if (persistent.endingFinished18 < 1):
+                            $ persistent.endingFinished18 += 1
+                        elif (persistent.endingFinished18 >= 1):
                             pass
                         else:
                             narrator "PERSISTENT DATA FAILURE FOR SECTION 8972. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -7969,10 +7907,10 @@ label chapterfive:
                 with dissolve                
                 narrator "Kristik's cock and balls were destroyed."
                 narrator "He died from shock due to his balls being destroyed."
-                narrator "{b}Bad ending 1/21{/b}"
-                if (persistent.endingFinished1 < 1):
-                    $ persistent.endingFinished1 += 1
-                elif (persistent.endingFinished1 >= 1):
+                narrator "{b}Bad ending 2/22{/b}"
+                if (persistent.endingFinished2 < 1):
+                    $ persistent.endingFinished2 += 1
+                elif (persistent.endingFinished2 >= 1):
                     pass
                 else:
                     narrator "PERSISTENT DATA FAILURE FOR SECTION 9025. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -9023,7 +8961,7 @@ label chapterfive:
                 $ renpy.pause(2,hard=True)  
                 narrator "Kristik was fatally shot with 4 bullet wounds to his thorax, stomach, head, and left arm."
                 narrator "He was instantly killed."
-                narrator "{b}Bad ending 3/21{/b}"
+                narrator "{b}Bad ending 3/22{/b}"
                 if (persistent.endingFinished3 < 1):
                     $ persistent.endingFinished3 += 1
                 elif (persistent.endingFinished3 >= 1):
@@ -10447,10 +10385,10 @@ label chapterfive:
                                 hide school_dormhallground
                                 hide white
                                 with dissolve
-                                "{b}Good ending 10/21" 
-                                if (persistent.endingFinished10 < 1):
-                                    $ persistent.endingFinished10 += 1
-                                elif (persistent.endingFinished10 >= 1):
+                                "{b}Good ending 19/22" 
+                                if (persistent.endingFinished19 < 1):
+                                    $ persistent.endingFinished19 += 1
+                                elif (persistent.endingFinished19 >= 1):
                                     pass
                                 else:
                                     narrator "PERSISTENT DATA FAILURE FOR SECTION 11500. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -10686,10 +10624,10 @@ label chapterfive:
                                         hide school_girlsdormhall
                                         hide white
                                         with dissolve
-                                        "{b}Good ending 11/21"  
-                                        if (persistent.endingFinished11 < 1):
-                                            $ persistent.endingFinished11 += 1
-                                        elif (persistent.endingFinished11 >= 1):
+                                        "{b}Good ending 20/22"  
+                                        if (persistent.endingFinished20 < 1):
+                                            $ persistent.endingFinished20 += 1
+                                        elif (persistent.endingFinished20 >= 1):
                                             pass
                                         else:
                                             narrator "PERSISTENT DATA FAILURE FOR SECTION 11738. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -10730,7 +10668,7 @@ label chapterfive:
                                         with dissolve             
                                         narrator "Kristik was killed from a firearm wound to the frontal lobe."
                                         narrator "Paramedics' attempts at bringing back his consciousness were unsuccessful."
-                                        narrator "{b}Bad ending 4/21{/b}"
+                                        narrator "{b}Bad ending 4/22{/b}"
                                         if (persistent.endingFinished4 < 1):
                                             $ persistent.endingFinished4 += 1
                                         elif (persistent.endingFinished4 >= 1):
@@ -11152,7 +11090,7 @@ label chapterfive:
                 with dissolve             
                 narrator "Kristik was sent to the afterlife after being penetrated by a 9mm bullet."
                 narrator "His Jordans would forever be a reminder of why you shouldn't trust other people with your money."
-                narrator "{b}Bad ending 5/21{/b}"
+                narrator "{b}Bad ending 5/22{/b}"
                 if (persistent.endingFinished5 < 1):
                     $ persistent.endingFinished5 += 1
                 elif (persistent.endingFinished5 >= 1):
@@ -13677,7 +13615,7 @@ label beatricepart:
         narrator "Kristik suffered a violent allergic reaction due to being in a 5 foot radius of cow produce."
         narrator "The resulting beef fumes entered his lungs and inflamed his inner trachea, causing him to suffocate."
         narrator "He slowly ran out of oxygen."
-        narrator "{b}Bad ending 6/21{/b}"
+        narrator "{b}Bad ending 6/22{/b}"
         if (persistent.endingFinished6 < 1):
             $ persistent.endingFinished6 += 1
         elif (persistent.endingFinished6 >= 1):
@@ -14656,10 +14594,10 @@ label beatricepart:
                         stop sound fadeout 2.0
                         "Kristik was unable to shoot the target fast enough and died due to a sudden explosion of a concealed landmine."
                         "His body and limbs were blown into pieces."
-                        "{b} Bad ending 8/21"  
-                        if (persistent.endingFinished8 < 1):
-                            $ persistent.endingFinished8 += 1
-                        elif (persistent.endingFinished8 >= 1):
+                        "{b} Bad ending 7/22"  
+                        if (persistent.endingFinished7 < 1):
+                            $ persistent.endingFinished7 += 1
+                        elif (persistent.endingFinished7 >= 1):
                             pass
                         else:
                             narrator "PERSISTENT DATA FAILURE FOR SECTION 15596. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -14798,10 +14736,10 @@ label beatricepart:
                         stop sound fadeout 2.0
                         "Kristik was unable to shoot the target fast enough and died due to a sudden explosion of a concealed landmine."
                         "His body and limbs were blown into pieces."
-                        "{b} Bad ending 76"
-                        if (persistent.endingFinishe7 < 1):
-                            $ persistent.endingFinished7 += 1
-                        elif (persistent.endingFinished7 >= 1):
+                        "{b} Bad ending 8/22"
+                        if (persistent.endingFinished8 < 1):
+                            $ persistent.endingFinished8 += 1
+                        elif (persistent.endingFinished8 >= 1):
                             pass
                         else:
                             narrator "PERSISTENT DATA FAILURE FOR SECTION 15734. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -15067,7 +15005,7 @@ label beatricepart:
                     hide math
                     $ renpy.pause(0.001,hard=True)           
                     "Kristik died due to a voice inside his head telling him he was not worth living after failing to solve such a simple math problem."
-                    "{b}Bad ending 9/21"  
+                    "{b}Bad ending 9/22"  
                     if (persistent.endingFinished9 < 1):
                         $ persistent.endingFinished9 += 1
                     elif (persistent.endingFinished9 >= 1):
@@ -15251,10 +15189,10 @@ label beatricepart:
             beatrice "Though that's what I like about you..."       
             hide sho22b_301 onlayer mcsprite            
             $ renpy.pause (2,hard=True)
-            "{b}Good ending 14/21"  
-            if (persistent.endingFinished14 < 1):
-                $ persistent.endingFinished14 += 1
-            elif (persistent.endingFinished14 >= 1):
+            "{b}Good ending 21/22"  
+            if (persistent.endingFinished21 < 1):
+                $ persistent.endingFinished21 += 1
+            elif (persistent.endingFinished21 >= 1):
                 pass
             else:
                 narrator "PERSISTENT DATA FAILURE FOR SECTION 16156. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -15456,10 +15394,10 @@ label chiesterEnding:
             with dissolve
             $ renpy.pause(2,hard=True)  
             narrator "Due to Kristik's perverted nature, he was instantly killed by 4 women."
-            narrator "{b}Bad ending 15/21{/b}"
-            if (persistent.endingFinished15 < 1):
-                $ persistent.endingFinished15 += 1
-            elif (persistent.endingFinished15 >= 1):
+            narrator "{b}Bad ending 10/22{/b}"
+            if (persistent.endingFinished10 < 1):
+                $ persistent.endingFinished10 += 1
+            elif (persistent.endingFinished10 >= 1):
                 pass
             else:
                 narrator "PERSISTENT DATA FAILURE FOR SECTION 16359. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -15744,10 +15682,10 @@ label chiesterEnding:
                     $ renpy.pause(2,hard=True)  
                     narrator "Kristik died due to fatal bullet penetration through his frontal lobe."
                     narrator "He was instantly killed."
-                    narrator "{b}Bad ending 16/21{/b}"
-                    if (persistent.endingFinished16 < 1):
-                        $ persistent.endingFinished16 += 1
-                    elif (persistent.endingFinished16 >= 1):
+                    narrator "{b}Bad ending 11/22{/b}"
+                    if (persistent.endingFinished11 < 1):
+                        $ persistent.endingFinished11 += 1
+                    elif (persistent.endingFinished11 >= 1):
                         pass
                     else:
                         narrator "PERSISTENT DATA FAILURE FOR SECTION 16643. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -16007,10 +15945,10 @@ label chiesterEnding:
                 $ renpy.pause(2,hard=True)  
                 narrator "Kristik's skull was fractured in 17 places due to bullet ricochet."
                 narrator "He slowly bled out from the back of his head."
-                narrator "{b}Bad ending 7/21{/b}"
-                if (persistent.endingFinished7 < 1):
-                    $ persistent.endingFinished7 += 1
-                elif (persistent.endingFinished7 >= 1):
+                narrator "{b}Bad ending 12/22{/b}"
+                if (persistent.endingFinished12 < 1):
+                    $ persistent.endingFinished12 += 1
+                elif (persistent.endingFinished12 >= 1):
                     pass
                 else:
                     narrator "PERSISTENT DATA FAILURE FOR SECTION 16898. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -16217,10 +16155,10 @@ label chiesterEnding:
                     with dissolve
                     $ renpy.pause(2,hard=True)  
                     narrator "Kristik was instantly killed due to a fatal gunshot wound from the back of the head, penetrating through his brain and exiting through his left eye."
-                    narrator "{b}Bad ending 18/21{/b}"
-                    if (persistent.endingFinished18 < 1):
-                        $ persistent.endingFinished18 += 1
-                    elif (persistent.endingFinished18 >= 1):
+                    narrator "{b}Bad ending 13/22{/b}"
+                    if (persistent.endingFinished13 < 1):
+                        $ persistent.endingFinished13 += 1
+                    elif (persistent.endingFinished13 >= 1):
                         pass
                     else:
                         narrator "PERSISTENT DATA FAILURE FOR SECTION 17107. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -16359,10 +16297,10 @@ label chiesterEnding:
                             $ renpy.pause(2,hard=True)  
                             narrator "Kristik was fatally wounded due to a 9x19mm Pst GZH bullet achieving the 1%% Head-eyes damage spot."
                             narrator "He was instantly killed."
-                            narrator "{b}Bad ending 17/21{/b}"
-                            if (persistent.endingFinished17 < 1):
-                                $ persistent.endingFinished17 += 1
-                            elif (persistent.endingFinished17 >= 1):
+                            narrator "{b}Bad ending 14/22{/b}"
+                            if (persistent.endingFinished14 < 1):
+                                $ persistent.endingFinished14 += 1
+                            elif (persistent.endingFinished14 >= 1):
                                 pass
                             else:
                                 narrator "PERSISTENT DATA FAILURE FOR SECTION 17248. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -16782,10 +16720,10 @@ label chiesterEnding:
             "Kristik and his two friends would exfiltrate to India and reside their till their deaths."
             "The PMCs sent by Aaron to kill the 3 were not able to locate them."
             "They all shared 82 children by the time of their deaths."
-            "{b}Neutral ending 20/21" 
-            if (persistent.endingFinished20 < 1):
-                $ persistent.endingFinished20 += 1
-            elif (persistent.endingFinished20 >= 1):
+            "{b}Neutral ending 15/22" 
+            if (persistent.endingFinished15 < 1):
+                $ persistent.endingFinished15 += 1
+            elif (persistent.endingFinished15 >= 1):
                 pass
             else:
                 narrator "PERSISTENT DATA FAILURE FOR SECTION 17660. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -16885,10 +16823,10 @@ label chiesterEnding:
             $ renpy.pause (2,hard=True)
             "Kristik would spend the rest of his life in the love dungeon."
             "His record currently is 88 nuts /per day."
-            "{b}Neutral ending 19/21" 
-            if (persistent.endingFinished19 < 1):
-                $ persistent.endingFinished19 += 1
-            elif (persistent.endingFinished19 >= 1):
+            "{b}Neutral ending 16/22" 
+            if (persistent.endingFinished16 < 1):
+                $ persistent.endingFinished16 += 1
+            elif (persistent.endingFinished16 >= 1):
                 pass
             else:
                 narrator "PERSISTENT DATA FAILURE FOR SECTION 17759. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -17002,7 +16940,7 @@ label noHoesEnding:
     "All working towards the goal of defeating Wesley Chang and Aaron Kim."
     "Kristik would never touch or interact with another woman."
     "However, none of that mattered to him, as he had: {b}The Boys."
-    "{b}No bitches ending 21/21"
+    "{b}No bitches ending 22/22"
     $ show_quick_menu = False
     window hide 
     with dissolve 
@@ -17010,9 +16948,9 @@ label noHoesEnding:
     hide BG080N
     with dissolve
     $ renpy.pause(3,hard=True)
-    if (persistent.endingFinished21 < 1):
-        $ persistent.endingFinished21 += 1
-    elif (persistent.endingFinished21 >= 1):
+    if (persistent.endingFinished22 < 1):
+        $ persistent.endingFinished22 += 1
+    elif (persistent.endingFinished22 >= 1):
         pass
     else:
         narrator "PERSISTENT DATA FAILURE FOR SECTION 16970. CHECK OFFSETS. PLEASE CONTACT DEVELOPER IF YOU ARE EXPERIENCING THIS ISSUE."
@@ -17024,7 +16962,5 @@ label secretEnding:
     "3 months of hard work for this game has (hopefully) paid off."
     "I don't get paid for this, and I really should have been, but whatever."
     "As a token of my appreciation, here's a steam gift card code: XXXXX-XXXXX-XXXXX-XXXX"
-    "You'd better hope that nobody has already taken this code."
-    "Each update to this game will generate a new steam gift code."
-    "But anyways, thanks for playing!"
+    "Thanks for playing!"
     $ MainMenu(confirm=False)()  

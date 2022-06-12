@@ -21,14 +21,14 @@
     <EnableLogging>False</EnableLogging>
   </KeysGenerator>
   <Input>
-    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\KristikSaga3.exe</FileName>
-    <ProductName>Kristik Saga 3 Limited Access BETA</ProductName>
-    <VersionInfo>0.2.2.0b</VersionInfo>
-    <ProductInfoFromResources>False</ProductInfoFromResources>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3.exe</FileName>
+    <ProductName/>
+    <VersionInfo/>
+    <ProductInfoFromResources>True</ProductInfoFromResources>
   </Input>
   <Output>
     <SameAsInputFile>True</SameAsInputFile>
-    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\KristikSaga3.exe</FileName>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3.exe</FileName>
     <DoNotBackup>False</DoNotBackup>
   </Output>
   <AdvanceInput>
@@ -129,7 +129,7 @@
       <AllowHardwareLockedKeys>False</AllowHardwareLockedKeys>
       <AllowTimeLimitedKeys>False</AllowTimeLimitedKeys>
       <AllowExecOnlyIfRegistered>False</AllowExecOnlyIfRegistered>
-      <KeyMode>0</KeyMode>
+      <KeyMode>1</KeyMode>
       <KeyBase>3</KeyBase>
       <EncryptApplication>False</EncryptApplication>
       <AllowRegisterAfterKeys>False</AllowRegisterAfterKeys>
@@ -1095,7 +1095,7 @@ try again!</Text>
                 <File>
                   <Type>2</Type>
                   <Name>archive.rpa</Name>
-                  <File>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-0.2.2.0b-dists\KristikSaga3-0.2.2.0b-win\game\archive.rpa</File>
+                  <File>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\game\archive.rpa</File>
                   <ActiveX>False</ActiveX>
                   <ActiveXInstall>False</ActiveXInstall>
                   <Action>0</Action>
@@ -1213,13 +1213,13 @@ try again!</Text>
       <Language>1033</Language>
       <CompanyName>KrisCorp LLC</CompanyName>
       <FileDescription>Kristik Saga 3 Wrapper Module</FileDescription>
-      <FileVersion>0.2.2.0b</FileVersion>
+      <FileVersion>2.0.0.0</FileVersion>
       <InternalName>ENIGMA.EXE</InternalName>
       <LegalCopyright>Copyrights (C) 2022 KrisCorp LLC</LegalCopyright>
       <LegalTrademarks>Trademarks (R) 2022 KrisCorp LLC</LegalTrademarks>
       <OriginalFilename>enigma.exe</OriginalFilename>
-      <ProductName>Kristik Saga 3 Limited Access BETA</ProductName>
-      <ProductVersion>0.2.2.0b</ProductVersion>
+      <ProductName>Kristik Saga 3</ProductName>
+      <ProductVersion>2.0.0.0</ProductVersion>
       <Comments>https://kristiklal.com/</Comments>
     </CustomVersionResource>
     <CustomManifestResource>

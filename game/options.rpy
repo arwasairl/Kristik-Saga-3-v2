@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Kristik Saga 3 Limited Access BETA")
+define config.name = _("Kristik Saga 3")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "0.2.2.0b"
+define config.version = "2.0.0.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
