@@ -21,14 +21,14 @@
     <EnableLogging>False</EnableLogging>
   </KeysGenerator>
   <Input>
-    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3.exe</FileName>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.1.0.0-dists\KristikSaga3-2.1.0.0-win\KristikSaga3.exe</FileName>
     <ProductName/>
     <VersionInfo/>
     <ProductInfoFromResources>True</ProductInfoFromResources>
   </Input>
   <Output>
     <SameAsInputFile>True</SameAsInputFile>
-    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\KristikSaga3.exe</FileName>
+    <FileName>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.1.0.0-dists\KristikSaga3-2.1.0.0-win\KristikSaga3.exe</FileName>
     <DoNotBackup>False</DoNotBackup>
   </Output>
   <AdvanceInput>
@@ -1095,7 +1095,7 @@ try again!</Text>
                 <File>
                   <Type>2</Type>
                   <Name>archive.rpa</Name>
-                  <File>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.0.0.0-dists\KristikSaga3-2.0.0.0-win\game\archive.rpa</File>
+                  <File>C:\Users\AARON\Downloads\Kristik Saga 3 Sourcce Files\Source\KristikSaga3-2.1.0.0-dists\KristikSaga3-2.1.0.0-win\game\archive.rpa</File>
                   <ActiveX>False</ActiveX>
                   <ActiveXInstall>False</ActiveXInstall>
                   <Action>0</Action>
@@ -1202,7 +1202,7 @@ try again!</Text>
     <CustomVersionResource>
       <Enabled>True</Enabled>
       <MajorVersion>2</MajorVersion>
-      <MinorVersion>0</MinorVersion>
+      <MinorVersion>1</MinorVersion>
       <Release>0</Release>
       <Build>0</Build>
       <DebugBuild>False</DebugBuild>
@@ -1213,13 +1213,13 @@ try again!</Text>
       <Language>1033</Language>
       <CompanyName>KrisCorp LLC</CompanyName>
       <FileDescription>Kristik Saga 3 Wrapper Module</FileDescription>
-      <FileVersion>2.0.0.0</FileVersion>
+      <FileVersion>2.1.0.0</FileVersion>
       <InternalName>ENIGMA.EXE</InternalName>
       <LegalCopyright>Copyrights (C) 2022 KrisCorp LLC</LegalCopyright>
       <LegalTrademarks>Trademarks (R) 2022 KrisCorp LLC</LegalTrademarks>
       <OriginalFilename>enigma.exe</OriginalFilename>
       <ProductName>Kristik Saga 3</ProductName>
-      <ProductVersion>2.0.0.0</ProductVersion>
+      <ProductVersion>2.1.0.0</ProductVersion>
       <Comments>https://kristiklal.com/</Comments>
     </CustomVersionResource>
     <CustomManifestResource>
