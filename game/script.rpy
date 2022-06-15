@@ -3331,11 +3331,13 @@ label parttwo:
         hide kyle (2)
         hide city_station
         with dissolve
+        stop sound fadeout 2.0
         $ renpy.pause(2,hard=True)
         jump chapterthree  
     
     kyle "Welp, let's get going then. We gotta get on board before they leave without us."
     stop music fadeout 2.0
+    stop sound fadeout 2.0
     $ show_quick_menu = False
     window hide
     hide kyle (2)
@@ -6702,11 +6704,14 @@ label chapterfour:
                         return
 
     else:
+        stop music fadeout 2.0
         $show_quick_menu = True
         window show
         with dissolve 
         show city_clubint
         with dissolve 
+        play music "audio/Riddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps) intro.ogg"
+        queue music "audioRiddle Joker Original Soundtrack OST Perfect Girl Instrumental-(128kbps).ogg"
         show kyle (23):
             xpos 700
             ypos 20
@@ -6735,7 +6740,7 @@ label chapterfour:
             zoom 0.6
         kevin "Awww cmon you're being a pussy now?"
         kristik "Fine!"
-        play sounmd "audio/ROBLOX _Bloxy Cola Drink_ Sound Effect-(128kbps).ogg"
+        play sound "audio/ROBLOX _Bloxy Cola Drink_ Sound Effect-(128kbps).ogg"
         ############################################################################################################################################
         # INSERT ROBLOX BLOXY COLA DRINKING SOUND
         ############################################################################################################################################
@@ -6750,12 +6755,14 @@ label chapterfour:
         hide jason (78)
         hide kyle (23)
         hide city_clubint
+        stop music fadeout 5.0
         with Pixellate(5,8)        
         window hide
         $ show_quick_menu = False
         with dissolve
         $ renpy.pause(2,hard=True)
         show city_street4_ni
+        play music "audio/Escape From Tarkov - Hideout Ambient Sound.rat-HQ.ogg"
         with Pixellate(5,8)        
         window show
         $ show_quick_menu = True
@@ -6815,6 +6822,7 @@ label chapterfour:
         hide aaron_11_n
         with dissolve
         kristik "Ughh... fuck!!"
+        stop music fadeout 2.0
         hide city_street4_ni
         with Pixellate(5,8)        
         window hide
@@ -6828,6 +6836,7 @@ label chapterfour:
         kristik "ugh..."
         kristik "fuck where the hell am I now?!!!"
         hide school_dormhisao_ni
+        play sound "audio/Light Switch Sound Effect-(128kbps).ogg"
         show school_dormhisao_ss
         $ renpy.pause(1,hard=True)
         show seri0104:
@@ -6841,6 +6850,7 @@ label chapterfour:
             ypos -60
             zoom 1.1  
         erika "Hey."
+        play music "audio/Riddle Joker Original Soundtrack (OST) _Common Scenery-(128kbps).ogg"
         hide seri0106
         show seri0104:
             xpos 150
@@ -7011,6 +7021,7 @@ label chapterfour:
         kristik "Really nice day today..."
         kristik "Too bad I can't really enjoy it because my FUCKING HEAD HURTS!!!"
         kristik "That bastard bitch balls Kevin... made me drink some fentanyl laced vodka..."
+        stop music fadeout 2.0
         hide school_gardens
         with dissolve
         window hide
