@@ -10,3 +10,7 @@ The game was initially going to be closed source with a protected Enigma Protect
 
 Enigma Protector v7.30+ and Ren'Py 7.4.11+ is required to utilize the game's assets as intended.
 
+# Notes
+The release package included is protected with Enigma Protector with no code signing. This may result in a Wacatac virus detection by your antivirus. 
+
+Version 2.1.0.0 is the latest version.
