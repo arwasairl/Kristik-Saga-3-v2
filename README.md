@@ -8,9 +8,9 @@ This project initially was created in 2020, but was abandoned after a couple mon
 
 The game was initially going to be closed source with a protected Enigma Protector project associated with it, but seeing as how this game is not being sold commercially, this project is now open source.
 
-Enigma Protector v7.30+ and Ren'Py 7.4.11+ is required to utilize the game's assets as intended.
+Enigma Protector v7.30+ and Ren'Py 7.4.11 (not newer, not older) is required to utilize the game's assets as intended.
 
 # Notes
 The release package included is protected with Enigma Protector with no code signing. This may result in a Wacatac virus detection by your antivirus. Please build from source if you do not feel comfortable running the release builds.
 
-Version 2.2.1.0 is the latest version.
+Releases were deleted on 2024-10-24.
